@@ -35,12 +35,14 @@ https://github.com/LinuxBeaver/GEGL-Custom-Bevel
 ## Extrusion 2 
 https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
  
-    Like Gimp's long shadow filter but it uses pixel data
+   Just like the long shadow filter but it uses pixel data
 
   
 ## Glossy Balloon
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
-  A glossy bevelish effect that looks like glossy paste.
+  
+  
+A glossy bevelish effect that looks like glossy paste.
   
  ## Neon Border 
  https://github.com/LinuxBeaver/GEGL-Neon-Border
