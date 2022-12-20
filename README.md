@@ -6,7 +6,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 ![image preview](effects_example.png  )
 
 ## Windows
-Filters go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
+Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
   Download for Windows here. But Linux binaries are available in each Github page. Reason Linux doesn't get the 
   same treatment is because it is a taboo for Linux users to get direct binary downloads (especially all in one place).
 
@@ -14,12 +14,12 @@ https://cdn.discordapp.com/attachments/402851569692966914/1052754123352711259/Be
   
   
 ## Linux 
-Filters go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+Filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 Linux Binaries are available  on each release page.
   
   
 ## FLATPAK Linux
-  Filters goes in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+  Filter binaries goes in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   
   The five most recommended filters are in this particular order 
@@ -31,7 +31,7 @@ Linux Binaries are available  on each release page.
   
   
 ## Extrusion 2 
-
+ 
     Like Gimp's Long Shadow filter but it uses pixel data
 
   
@@ -41,6 +41,7 @@ Linux Binaries are available  on each release page.
  ## Neon Border 
   GEGL Makes a classical Neon Border Effect
   
-They do it all when it comes to text styling everything is more niche. 
+  
+  Enjoy!
   
 
