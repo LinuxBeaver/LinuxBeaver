@@ -32,11 +32,13 @@ Linux Binaries are available  on each release page.
   
 ## Extrusion 2 
     Like Gimp's Long Shadow filter but it uses pixel data
-    ![image preview](gegl_ex2.png )
+
   
-  4. Glossy Balloon
+## Glossy Balloon
+  A GLossy Bevelish Effect that looks like glossy paste.
   
-  5. Neon Border 
+ ## Neon Border 
+  GEGL Makes a classical Neon Border Effect
   
 They do it all when it comes to text styling everything is more niche. 
   
