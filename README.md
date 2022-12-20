@@ -24,21 +24,26 @@ Linux Binaries are available  on each release page.
   
   The five most recommended filters are in this particular order 
 ## GEGL Effects (The layer effects counter part)
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
   ![image preview](effects4.png )
   
 ## Custom Bevel
+https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](customb.png )
   
   
 ## Extrusion 2 
+https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
  
     Like Gimp's long shadow filter but it uses pixel data
 
   
 ## Glossy Balloon
+https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   A glossy bevelish effect that looks like glossy paste.
   
  ## Neon Border 
+ https://github.com/LinuxBeaver/GEGL-Neon-Border
   GEGL Makes a classical Neon Border effect
   
   
