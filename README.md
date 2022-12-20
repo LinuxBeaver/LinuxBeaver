@@ -4,10 +4,6 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 
 ![image preview](effects_example.png  )
-![image preview](effects4.png )
-
-
-
 
 ## Windows
 Filters go in C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins then restart Gimp and open GEGL Operations.
@@ -26,6 +22,18 @@ Linux Binaries are available  on each release page.
   Filters goes in /home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins then restart Gimp and open GEGL Operations. 
   
   
+  The five most recommended filters are in this particular order 
+## GEGL Effects (The layer effects counter part)
+  ![image preview](effects4.png )
   
+## Custom Bevel
+    ![image preview](customb.png )
+  
+  
+  3. Extrusion 2 
+  4. Glossy Balloon
+  5. Neon Border 
+  
+They do it all when it comes to text styling everything is more niche. 
   
 
