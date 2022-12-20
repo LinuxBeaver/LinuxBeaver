@@ -31,7 +31,7 @@ Linux Binaries are available  on each release page.
   
   
 ## Extrusion 2 
-    
+
     Like Gimp's Long Shadow filter but it uses pixel data
 
   
