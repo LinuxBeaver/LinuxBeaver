@@ -1,16 +1,13 @@
-### Hi there 👋
+Beaver's third party GEGL Plugins for Gimp
+=========
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. 
 
-<!--
-**LinuxBeaver/LinuxBeaver** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+![image preview](GE.png )
+![image preview](effects4.png )
+![image preview](bevel_preview.png )
+![image preview](innerglow_preview.png )
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+
