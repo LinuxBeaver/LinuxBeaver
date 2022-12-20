@@ -27,7 +27,7 @@ Linux Binaries are available  on each release page.
   ![image preview](effects4.png )
   
 ## Custom Bevel
-    ![image preview](customb.png )
+  ![image preview](customb.png )
   
   
   3. Extrusion 2 
