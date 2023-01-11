@@ -46,7 +46,8 @@ A glossy bevelish effect that looks like glossy paste.
   
  ## Neon Border 
  https://github.com/LinuxBeaver/GEGL-Neon-Border
-  GEGL Makes a classical Neon Border effect
+ 
+ GEGL Makes a classical Neon Border effect
   
   
   Enjoy!
