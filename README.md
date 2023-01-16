@@ -9,8 +9,8 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
   Download for Windows here. But Linux binaries are available in each Github page. Reason Linux doesn't get the 
   same treatment is because it is a taboo for Linux users to get direct binary downloads (especially all in one place).
-
-https://cdn.discordapp.com/attachments/402851569692966914/1052754123352711259/Beaver-Compiled_GEGL_Binaries_for_windows_12_14.zip
+[
+https://cdn.discordapp.com/attachments/402851569692966914/1052754123352711259/Beaver-Compiled_GEGL_Binaries_for_windows_12_14.zip](https://cdn.discordapp.com/attachments/402851569692966914/1064571609110818866/All_GEGL_Plugins.zip)
   
   
 ## Linux 
