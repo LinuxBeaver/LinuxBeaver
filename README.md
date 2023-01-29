@@ -3,7 +3,7 @@ Beaver's third party GEGL Plugins for Gimp
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each filter can do.
 
 
-![image preview](effects_example.png  )
+![image preview](text.png  )
 
 ## Windows
 Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
