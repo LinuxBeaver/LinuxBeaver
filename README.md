@@ -13,15 +13,17 @@ Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then
 ## Linux 
 Filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
+[Linux Plugins and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1076142447970766858/All_GEGL_Plugins_feb_2023.zip)
 
 
-Includes Linux binaries, Windows Binaries and Source Code]([https://cdn.discordapp.com/attachments/402851569692966914/1069655756309278790/ ( All_GEGL_Plugins__beaver.zip](https://cdn.discordapp.com/attachments/402851569692966914/1076142447970766858/All_GEGL_Plugins_feb_2023.zip)
-  
+Includes Linux binaries, Windows Binaries and Source Code 
+
 ## FLATPAK Linux
   Filter binaries goes in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   
   ## The five most recommended filters are in this particular order 
+  
   
 ### GEGL Effects (The layer effects counter part)
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
