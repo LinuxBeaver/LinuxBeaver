@@ -7,12 +7,12 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 ## Windows
 .dll file Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
-https://cdn.discordapp.com/attachments/402851569692966914/1081332315218784356/Binaries_For_Windows.zip
+https://cdn.discordapp.com/attachments/402851569692966914/1083815754383769711/GEGL_Binaries_For_Windows.zip
   
 ## Linux 
 .so file Filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Linux Plugins and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1081332315587891321/Linux_plugins.zip)
+[Linux Plugins and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1083815754752864366/GEGL_Linux_plugins.zip)
 
 
 Includes Linux binaries, Windows Binaries and Source Code 
