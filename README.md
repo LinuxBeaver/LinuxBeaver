@@ -33,7 +33,8 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
 ## Custom Bevel
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](customb.png )
-  This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
+ 
+ This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
   
 ## SSG
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
