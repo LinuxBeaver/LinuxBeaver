@@ -50,9 +50,10 @@ https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
   
 ## Glossy Balloon
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
+  ![image preview]( yellow_ballon.jpg )
   
   
-A glossy bevelish effect that looks like glossy paste.
+  A glossy bevelish effect that looks like glossy paste.
   
 
   
