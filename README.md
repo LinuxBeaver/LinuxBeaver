@@ -32,7 +32,7 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
   
 ## Custom Bevel
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
-  ![image preview](customb.png )
+  ![image preview](framed_GEGL3.png )
  
  This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
   
