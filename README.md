@@ -24,31 +24,31 @@ Includes Linux binaries, Windows Binaries and Source Code
   ## The five most recommended filters are in this particular order 
   
   
-### GEGL Effects (The layer effects counter part)
+### 1. GEGL Effects (The layer effects counter part)
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
   ![image preview](effects4.png )  
   
   This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
   
-## Custom Bevel
+## 2. Custom Bevel
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
  
  This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
   
-## SSG
+## 3. SSG
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
 
 A imrpoved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. It even has an image file overlay mode. It will be far more useful in Gimp 3.2
   
   
-## Extrusion 2 
+## 4. Extrusion 2 
 https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
  
    Just like the long shadow filter but it uses pixel data
 
   
-## Glossy Balloon
+## 5. Glossy Balloon
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   ![image preview]( yellow_ballon.jpg )
   
