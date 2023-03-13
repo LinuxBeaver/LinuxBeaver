@@ -38,6 +38,7 @@ https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   
 ## SSG
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
+
 A imrpoved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. It even has an image file overlay mode. It will be far more useful in Gimp 3.2
   
   
