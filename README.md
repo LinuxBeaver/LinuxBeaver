@@ -21,9 +21,9 @@ Includes Linux binaries, Windows Binaries and Source Code
   Filter binaries goes in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   
-  ## The five most recommended filters are in this particular order 
-    This is incase you prefer downloading filters manually instead of grabbing all of them as binaries. 
   
+  ## The five most recommended filters are in this particular order 
+
   
 ### 1. GEGL Effects (The layer effects counter part)
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
