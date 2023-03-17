@@ -22,6 +22,7 @@ Includes Linux binaries, Windows Binaries and Source Code
   
   
   ## The five most recommended filters are in this particular order 
+    This is incase you prefer downloading filters manually instead of grabbing all of them as binaries. 
   
   
 ### 1. GEGL Effects (The layer effects counter part)
