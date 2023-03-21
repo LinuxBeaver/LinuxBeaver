@@ -17,9 +17,11 @@ https://cdn.discordapp.com/attachments/402851569692966914/1083815754383769711/GE
 Includes Linux binaries, Windows Binaries and Source Code 
 
 ## FLATPAK Linux
-  Filter binaries goes in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+  Filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
-  
+  ## SNAP Linux (NUMBER 393 VARIES)
+  Filter Binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
   
   ## The five most recommended filters are in this particular order 
 
