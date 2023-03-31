@@ -28,7 +28,10 @@ Includes Linux binaries, Windows Binaries and Source Code
 
   
 ### 1. GEGL Effects (The layer effects counter part)
-https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
+
+and or 
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/ContinualEdition
   ![image preview](effects4.png )  
   
   This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
