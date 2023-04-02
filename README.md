@@ -6,6 +6,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 ## Windows
 .dll file Filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
+You may need to create the folder 'plug-ins` if it does not exist.
 
 [Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1089341501315748002/top20_gegl_plugins_for_windows.zip)
   
