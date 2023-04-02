@@ -5,13 +5,13 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 ![image preview](text.png  )
 
 ## Windows
-.dll file Filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
+.dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 You may need to create the folder 'plug-ins` if it does not exist.
 
 [Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1089341501315748002/top20_gegl_plugins_for_windows.zip)
   
 ## Linux 
-.so file Filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+.so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
 [Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1089341501621948527/top20_gegl_plugins_linux_and_source.zip)
 
@@ -22,7 +22,7 @@ Includes Linux binaries, Windows Binaries and Source Code
   Filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   ## SNAP Linux (NUMBER 393 VARIES)
-  Filter Binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  Filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
   
   ## The five most recommended filters are in this particular order 
