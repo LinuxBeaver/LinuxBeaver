@@ -30,6 +30,7 @@ Includes Linux binaries, Windows Binaries and Source Code
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
 Filter Binaries go in `/Library/Application Support/gegl/0.4/plug-ins/`
+or perhaps `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins`
 
 You may need to create `plug-ins` folder if it doesn't exist.
 
