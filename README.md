@@ -25,11 +25,11 @@ Includes Linux binaries, Windows Binaries and Source Code
   Filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
   
-## Mac OS (untested and no binaries officially supported) IF I GET HELP I MIGHT BE ABLE TO SUPPLY MAC binaries.
+## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
 Filter Binaries go in /Library/Application Support/gegl/0.4/plug-ins/
 
---Mandatory Compiling via instructions due to lack of binaries --
+--Instructions to compile on Mac due to lack of binaries --
 
 https://brew.sh/
 Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
