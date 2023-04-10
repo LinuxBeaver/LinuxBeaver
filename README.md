@@ -4,6 +4,8 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 ![image preview](text.png  )
 
+All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use binaries. Unforunately Mac users have to compile.
+
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 You may need to create the folder 'plug-ins` if it does not exist.
