@@ -48,7 +48,7 @@ https://formulae.brew.sh/formula/ninja#default
 https://formulae.brew.sh/formula/gegl#default
  `brew install gegl`
   
-  Then Compile as you would on Linux using Meson and Ninja and perhaps even my build.sh script will work.
+  Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
   
   ## The five most recommended filters are in this particular order 
   
