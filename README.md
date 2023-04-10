@@ -18,7 +18,7 @@ You may need to create the folder 'plug-ins` if it does not exist.
 
 Includes Linux binaries, Windows Binaries and Source Code 
 
-## FLATPAK Linux
+## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
   Filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   ## SNAP Linux (NUMBER 393 VARIES)
