@@ -37,6 +37,8 @@ You may need to create `plug-ins` folder if it doesn't exist.
 --Instructions to compile on Mac due to lack of binaries --
 
 https://brew.sh/
+http://gimpchat.com/viewtopic.php?f=8&t=20357
+
 Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 then
 
