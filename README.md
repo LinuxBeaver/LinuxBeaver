@@ -21,15 +21,15 @@ You may need to create the folder 'plug-ins` if it does not exist.
 Includes Linux binaries, Windows Binaries and Source Code 
 
 ## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
-  Filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+  so. file filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   ## SNAP Linux (NUMBER 393 VARIES)
-  Filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
   
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
-Filter Binaries go in `/Library/Application Support/gegl/0.4/plug-ins/`
+.dylib file filter binaries go in `/Library/Application Support/gegl/0.4/plug-ins/`
 or perhaps `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins`
 
 You may need to create `plug-ins` folder if it doesn't exist.
