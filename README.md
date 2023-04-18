@@ -10,12 +10,12 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 You may need to create the folder 'plug-ins` if it does not exist.
 
-[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1089341501315748002/top20_gegl_plugins_for_windows.zip)
+[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1097718529614151680/Top_GEGL_plugins_for_Windows_april17.zip)
   
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1089341501621948527/top20_gegl_plugins_linux_and_source.zip)
+[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1097718529278611546/Top_GEGL_plugins_for_Linux_april17.zip)
 
 
 Includes Linux binaries, Windows Binaries and Source Code 
