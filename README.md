@@ -8,7 +8,8 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
-You may need to create the folder 'plug-ins` if it does not exist.
+You may need to create the folder 'plug-ins` if it does not exist. 
+There is a low chance Windows users will need to reinstall Gimp for plugins to work.
 
 [Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1097718529614151680/Top_GEGL_plugins_for_Windows_april17.zip)
   
@@ -34,7 +35,7 @@ or perhaps `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins`
 
 You may need to create `plug-ins` folder if it doesn't exist.
 
---Instructions to compile on Mac due to lack of binaries --
+--Instructions to compile on Mac due to lack of binaries  --
 
 https://brew.sh/
 
@@ -53,6 +54,7 @@ https://formulae.brew.sh/formula/gegl#default
  `brew install gegl`
   
   Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
+  There is a chance Gimp will need to be reinstalled after installing the plugins.
   
   ## The five most recommended filters are in this particular order 
   
