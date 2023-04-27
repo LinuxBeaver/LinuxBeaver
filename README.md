@@ -55,7 +55,9 @@ https://formulae.brew.sh/formula/gegl#default
   
   Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
 Then right-click on each individual .dylib file and then select open (in the finder), and it asks if you really want to open it. After that restart Gimp
-and the plugin *should work.  Each .dylib file needs to be manually approved. 
+go to GEGL Operations. The plugin('s) *should work.  Each .dylib file needs to be manually approved. So running this in a folder to do exactly the same thing 
+may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
+sudo xattr -rd com.apple.quarantine *`
   
   ## The five most recommended filters are in this particular order 
   
