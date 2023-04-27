@@ -54,7 +54,8 @@ https://formulae.brew.sh/formula/gegl#default
  `brew install gegl`
   
   Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
-  There is a chance Gimp will need to be reinstalled after installing the plugins.
+Then right-click on each individual .dylib file and then select open (in the finder), and it asks if you really want to open it. After that restart Gimp
+and the plugin *should work.  Each .dylib file needs to be manually approved. 
   
   ## The five most recommended filters are in this particular order 
   
