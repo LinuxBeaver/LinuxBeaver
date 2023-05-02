@@ -17,7 +17,7 @@ There is a low chance Windows users will need to reinstall Gimp for plugins to w
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zipp)
+[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zip)
 
 
 Includes Linux binaries, Windows Binaries and Source Code 
