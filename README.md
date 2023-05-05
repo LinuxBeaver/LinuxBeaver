@@ -34,7 +34,7 @@ Includes Linux binaries and Source Code
   
   ## SNAP Linux (NUMBER 393 VARIES)
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
-  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
+  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operations.
   
  
   
