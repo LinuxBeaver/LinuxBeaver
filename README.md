@@ -9,9 +9,12 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 You may need to create the folder 'plug-ins` if it does not exist. 
-There is a low chance Windows users will need to reinstall Gimp for plugins to work.
+There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
 
 [Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1103030539314790410/Windows_GEGL_Gimp_plugins_Binaries_may2023.zip
+--
+How to Compile on Windows here
+http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
   
 ## Linux 
@@ -28,6 +31,8 @@ Includes Linux binaries, Windows Binaries and Source Code
   ## SNAP Linux (NUMBER 393 VARIES)
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  
+  
+  The only package needed to compile on Linux is gegl. You should be able to press the build_linux.sh and go.
   
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
