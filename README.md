@@ -27,7 +27,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 
 
 
-Includes Linux binaries, Windows Binaries and Source Code 
+Includes Linux binaries and Source Code 
 
 ## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
   so. file filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
