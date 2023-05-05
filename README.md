@@ -11,9 +11,10 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 You may need to create the folder 'plug-ins` if it does not exist. 
 There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
 
-[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1103030539314790410/Windows_GEGL_Gimp_plugins_Binaries_may2023.zip
---
-How to Compile on Windows here
+[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1103030539314790410/Windows_GEGL_Gimp_plugins_Binaries_may2023.zip)
+
+If you choose to not use binaries this is how you compile my plugins on Windows.
+
 http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
   
@@ -21,6 +22,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
 [Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zip)
+
 
 
 Includes Linux binaries, Windows Binaries and Source Code 
