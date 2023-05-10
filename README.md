@@ -5,6 +5,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 ![image preview](text.png  )
 
 
+
 ![image preview](styles.png  )
 
 All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Unforunately Mac users have to compile no matter what.
@@ -99,6 +100,8 @@ A imrpoved version of Gimp's Drop Shadow filter but it starts as a outline and k
 https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
  
    Just like the long shadow filter but it uses pixel data
+   
+![image preview](extrusion2.png  )
 
   
 ## 5. Glossy Balloon
