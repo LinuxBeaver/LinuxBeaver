@@ -1,55 +1,116 @@
-Beaver's third party GEGL Plugins for Gimp
+Beaver's third party GEGL Gimp Plugins for Gimp
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each filter can do.
-
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each gimp plugin can do. You have the option to download twenty of my best filters in one place but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have 35 filters in total. Please remember all my filters are located in **the GEGL Operations section** of Gimp and no where else, and  that my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
 
 ![image preview](text.png  )
 
-## Windows
-Filter binaries go in `C:\Users<YOUR NAME>\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 
-  https://cdn.discordapp.com/attachments/402851569692966914/1064575233236926574/GEGL_Plugin_Binaries_For_Windows.zip
+
+![image preview](styles.png  )
+
+All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Unforunately Mac users have to compile no matter what.
+
+## Windows
+.dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
+You may need to create the folder 'plug-ins` if it does not exist. 
+There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
+
+[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1103030539314790410/Windows_GEGL_Gimp_plugins_Binaries_may2023.zip)
+
+If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
+
+http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
+)
   
 ## Linux 
-Filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+.so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+
+[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zip)
+
+ The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
 
-[
-Includes Linux binaries, Windows Binaries and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1069655756309278790/All_GEGL_Plugins__beaver.zip)
+
+Includes Linux binaries and Source Code 
+
+## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
+  so. file filter binaries go in `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
-## FLATPAK Linux
-  Filter binaries goes in `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+  ## SNAP Linux (NUMBER 393 VARIES)
+  .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operations.
   
+ 
+  
+## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
+
+.dylib file filter binaries go in `/Library/Application Support/gegl/0.4/plug-ins/`
+or perhaps `~/.local/share/gegl-0.4/plug-ins`
+
+You may need to create `plug-ins` folder if it doesn't exist.
+
+--Instructions to compile on Mac due to lack of binaries  --
+
+https://brew.sh/
+
+http://gimpchat.com/viewtopic.php?f=8&t=20357
+
+Install Homebrew with `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+then
+
+https://formulae.brew.sh/formula/meson#default
+`brew install meson`
+
+https://formulae.brew.sh/formula/ninja#default
+`brew install ninja`
+
+https://formulae.brew.sh/formula/gegl#default
+ `brew install gegl`
+  
+  Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
+Then right-click on each individual .dylib file and then select open (in the finder), and it asks if you really want to open it. After that restart Gimp
+go to GEGL Operations. The plugin('s) *should work.  Each .dylib file needs to be manually approved. So running this in a folder to do exactly the same thing 
+may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
+sudo xattr -rd com.apple.quarantine *`
   
   ## The five most recommended filters are in this particular order 
   
-### GEGL Effects (The layer effects counter part)
-https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
-  ![image preview](effects4.png )
+### 1. GEGL Effects (The layer effects counter part)
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
+
+and or 
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/ContinualEdition
+  ![image preview](effects4.png )  
   
-## Custom Bevel
+  This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
+  
+## 2. Custom Bevel
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
-  ![image preview](customb.png )
+  ![image preview](framed_GEGL3.png )
+ 
+ This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
+  
+## 3. SSG
+https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
+
+A imrpoved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. It even has an image file overlay mode. It will be far more useful in Gimp 3.2
   
   
-## Extrusion 2 
+## 4. Extrusion 2 
 https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
  
    Just like the long shadow filter but it uses pixel data
+   
+![image preview](extrusion2.png  )
 
   
-## Glossy Balloon
+## 5. Glossy Balloon
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
+  ![image preview]( yellow_ballon.jpg )
   
   
-A glossy bevelish effect that looks like glossy paste.
+  A glossy bevelish effect that looks like glossy paste.
   
- ## Neon Border 
- https://github.com/LinuxBeaver/GEGL-Neon-Border
- 
- GEGL Makes a classical Neon Border effect
-  
+
   
   Enjoy!
-  
-
