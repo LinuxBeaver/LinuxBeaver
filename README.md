@@ -23,7 +23,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
   
 ## Linux 
-.so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+.so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
 [Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zip)
 
@@ -34,18 +34,18 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 Includes Linux binaries and Source Code 
 
 ## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
-  so. file filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
+  so. file filter binaries go in `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
   
   ## SNAP Linux (NUMBER 393 VARIES)
-  .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
-  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operations.
+  .so file filter binaries go `~/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  for finding the right directory. Simply go back to `~/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operations.
   
  
   
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
 .dylib file filter binaries go in `/Library/Application Support/gegl/0.4/plug-ins/`
-or perhaps `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins`
+or perhaps `~/.local/share/gegl-0.4/plug-ins`
 
 You may need to create `plug-ins` folder if it doesn't exist.
 
@@ -114,5 +114,3 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
 
   
   Enjoy!
-  
-
