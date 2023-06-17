@@ -85,6 +85,7 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/t
   This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
   
 ## 2. Custom Bevel
+#BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND WILL BE IN FUTURE 2.99 BUILDS - (JUNE 15 2023)
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
  
