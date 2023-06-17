@@ -5,7 +5,6 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 ![image preview](text.png  )
 
 
-
 ![image preview](styles.png  )
 
 All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Unforunately Mac users have to compile no matter what.
@@ -15,7 +14,7 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 You may need to create the folder 'plug-ins` if it does not exist. 
 There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
 
-[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1103030539314790410/Windows_GEGL_Gimp_plugins_Binaries_may2023.zip)
+[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1119704093267603616/Windows_june_17_GIMP_GEGL_PLUGINS.zip)
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
 
@@ -25,11 +24,9 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1103030539759403089/Linux_GEGL_Gimp_plugins_BinariesSource_may2023.zip)
+[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1119704093947076770/Linux_june_17_Gimp_GEGL_PLUGINS.zip)
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
-
-
 
 Includes Linux binaries and Source Code 
 
@@ -39,8 +36,6 @@ Includes Linux binaries and Source Code
   ## SNAP Linux (NUMBER 393 VARIES)
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operations.
-  
- 
   
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
