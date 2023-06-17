@@ -1,6 +1,6 @@
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each gimp plugin can do. You have the option to download twenty of my best filters in one place but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have 35 filters in total. Please remember all my filters are located in **the GEGL Operations section** of Gimp and no where else, and  that my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each gimp plugin can do. You have the option to download twenty two (or three) of my best filters in one place but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have 35 filters in total. Please remember all my filters are located in **the GEGL Operations section** of Gimp and no where else, and  that my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
 
 ![image preview](text.png  )
 
@@ -14,7 +14,7 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 You may need to create the folder 'plug-ins` if it does not exist. 
 There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
 
-[Top twenty GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1119704093267603616/Windows_june_17_GIMP_GEGL_PLUGINS.zip)
+[Top twenty something GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1119704093267603616/Windows_june_17_GIMP_GEGL_PLUGINS.zip)
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
 
@@ -24,7 +24,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Top twenty GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1119704093947076770/Linux_june_17_Gimp_GEGL_PLUGINS.zip)
+[Top twenty something GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1119704093947076770/Linux_june_17_Gimp_GEGL_PLUGINS.zip)
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
