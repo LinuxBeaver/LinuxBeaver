@@ -107,7 +107,10 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   
   
   A glossy bevelish effect that looks like glossy paste.
-  
+
+
+  ## Completion of Project - THIS PROJECT IS COMPLETE
+  As of June 30th 2023 Beaver Considers their GEGL Project 100% complete. There will be a very low incentive for plugin updates (outside of breakages) and even a lower incentive on new plugins coming into existence. Beaver spent exactly 2 years studying GEGL and he hopes that he can share their knowledge with the word. Anyone else is welcome to pick up where Beaver left off. It is time for Beaver to retire from LibreGraphics Land. I had so much fun making GEGL plugins for Gimp.
 
   
   Enjoy!
