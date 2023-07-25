@@ -25,7 +25,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 
-[Top twenty something GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1133540643294158928/linux_top_twenty_gegl_plugins.zip)
+[Top twenty something GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1133540643294158928/linux_top_twenty_gegl_plugins.zip) 
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
