@@ -112,6 +112,9 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   ## Completion of Project - THIS PROJECT IS COMPLETE
   As of June 30th 2023 Beaver Considers their GEGL Project 100% complete. There will be a very low incentive for plugin updates (outside of breakages) and even a lower incentive on new plugins coming into existence. Beaver spent exactly 2 years studying GEGL and he hopes that he can share his knowledge with the word. Anyone else is welcome to pick up where Beaver left off. It is time for Beaver to retire from LibreGraphics Land. I had so much fun making GEGL plugins for Gimp.
 
+
+## Avoid SubFolders and no binary content in GEGL Plugins directory
+Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
   
   Enjoy!
   
