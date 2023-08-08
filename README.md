@@ -13,7 +13,7 @@ All plugins can be compiled with Ninja and Meson but Windows, Linux and Chromebo
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
 You may need to create the folder 'plug-ins` if it does not exist. 
-There is a very low chance Windows users will need to reinstall Gimp for plugins to work.
+There is a very low chance Windows users will need to reinstall Gimp for plugins to work. This low chance is probably caused by having a old version of Gimp. (before 2019)
 
 
 #### download for Windows here
