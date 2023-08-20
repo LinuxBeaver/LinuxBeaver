@@ -7,6 +7,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 ![image preview](styles.png  )
 
+![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/2fe6a8ed-e903-432d-ac7c-872200b3eeb8)
 
 All plugins have source code on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I can't support Mac.
 
