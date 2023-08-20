@@ -76,10 +76,11 @@ sudo xattr -rd com.apple.quarantine *`
   ## The five most recommended filters are in this particular order 
   
 ### 1. GEGL Effects (The layer effects counter part)
+**Stable**
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
 
-and or 
-https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/ContinualEdition
+or test its experimental update....
+https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/GEGL-Effects-Continual-Experimental-update
   ![image preview](effects4.png )  
   
   This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
