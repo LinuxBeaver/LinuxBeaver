@@ -18,7 +18,7 @@ There is a very low chance Windows users will need to reinstall Gimp for plugins
 
 
 #### download for Windows here
-[Top twenty something GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/402851569692966914/1136076410830721165/windows_top_twenty_gegl_plugins.zip
+[https://cdn.discordapp.com/attachments/1142276462167195719/1144992524713349241/windows_top_gegl_plugins.zip
 )
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
@@ -29,7 +29,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operations. 
 #### download for Linux here
-[Top twenty something GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/402851569692966914/1136076411308875816/linux_top_twenty_gegl_plugins.zip) 
+[Top twenty something GEGL Plugins for Linux and Source Code](https://cdn.discordapp.com/attachments/1142276462167195719/1144992525069852713/linux_top_gegl_plugins.zip) 
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
