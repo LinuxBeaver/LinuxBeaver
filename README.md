@@ -18,8 +18,7 @@ There is a very low chance Windows users will need to reinstall Gimp for plugins
 
 
 #### download for Windows here
-[Top twenty something GEGL Plugins for Windows] (https://cdn.discordapp.com/attachments/1142276462167195719/1144992524713349241/windows_top_gegl_plugins.zip)
-)
+[Top twenty something GEGL Plugins for Windows](https://cdn.discordapp.com/attachments/1142276462167195719/1144992524713349241/windows_top_gegl_plugins.zip) 
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
 
