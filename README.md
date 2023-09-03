@@ -85,33 +85,33 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/t
   This filter also ships with GEGL Inner Glow and GEGL Bevel and Glass on Text which are useful operations on their own.
   
 ## 2. Custom Bevel
-BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND IS CALLED CHAMFER
+A dedicated bevel designer plugin that goes far beyond what my basic gegl:bevel can do.
+BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND IS CALLED CHAMFER.
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
  
- This is a dedicated Bevel filter for Gimp that goes far beyond what my basic gegl:bevel can do.
+
   
 ## 3. SSG
+A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
+ What makes it better then dropshadow is that it applies the effect on its own layer. 
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
 ![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/498d25f9-7702-40d6-beeb-540833b3ee12)
 
-A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
- What makes it better then dropshadow is that it applies the effect on its own layer. 
-  
-## 4. Extrusion 2 
-https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
- 
+## 4. Extrusion 2  
    Just like the long shadow filter but it uses pixel data
+https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
+
    
 ![image preview](extrusion2.png  )
 
   
 ## 5. Glossy Balloon
+  A glossy bevelish effect that looks like glossy paste.
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   ![image preview]( yellow_ballon.jpg )
   
-  
-  A glossy bevelish effect that looks like glossy paste.
+
 
 
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
