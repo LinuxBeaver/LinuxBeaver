@@ -1,6 +1,6 @@
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download twenty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have over 50 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operations section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places. Please note, my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download twenty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have over 50 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operations section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more. Please note, my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
 
 ![image preview](text.png  )
 
@@ -9,7 +9,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 
 ![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/2fe6a8ed-e903-432d-ac7c-872200b3eeb8)
 
-All plugins have source code on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I can't support Mac.
+All plugins have source code on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I can't support Mac. If you look at the source code of my GEGL plugins you will also find GEGL syntax listed before the code begins. If you put this GEGL syntax inside Gimp's "GEGL Graph" filter you can test a plugin of mine in a static position without installing. The syntax provided in the source code roughly recreates the plugin.
 
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open GEGL Operations.
@@ -82,10 +82,10 @@ or test its experimental update....
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/GEGL-Effects-Continual-Experimental-update
   ![image preview](effects4.png )  
   
-  This filter also ships with GEGL Inner Glow and GEGL Bevel which are useful operations on their own.
+  This filter also ships with GEGL Inner Glow and GEGL Bevel and Glass on Text which are useful operations on their own.
   
 ## 2. Custom Bevel
-#BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND WILL BE IN FUTURE 2.99 BUILDS - (JUNE 15 2023)
+BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND IS CALLED CHAMFER
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
  
@@ -111,10 +111,6 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   
   
   A glossy bevelish effect that looks like glossy paste.
-
-
-  ## Completion of Project - THIS PROJECT IS COMPLETE
-  As of June 30th 2023 Beaver Considers their GEGL Project 100% complete. There will be a very low incentive for plugin updates (outside of breakages) and even a lower incentive on new plugins coming into existence. Beaver spent exactly 2 years studying GEGL and he hopes that he can share his knowledge with the world. Anyone else is welcome to pick up where Beaver left off. It is time for Beaver to retire from LibreGraphics Land. I had so much fun making GEGL plugins for Gimp.
 
 
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
