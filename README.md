@@ -93,9 +93,10 @@ https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   
 ## 3. SSG
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
+![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/498d25f9-7702-40d6-beeb-540833b3ee12)
 
-A imrpoved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. It even has an image file overlay mode. It will be far more useful in Gimp 3.2
-  
+A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
+ What makes it better then dropshadow is that it applies the effect on its own layer. 
   
 ## 4. Extrusion 2 
 https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
