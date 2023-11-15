@@ -87,6 +87,7 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/t
 ## 2. Custom Bevel
 A dedicated bevel designer plugin that goes far beyond what my basic gegl:bevel can do.
 BECAUSE OF YOUR CARE AND SUPPORT A SPECIAL BRANCH OF CUSTOM BEVEL IS NOW ACCEPTED IN GIMP 3 AND IS CALLED CHAMFER.
+
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
  
