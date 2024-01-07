@@ -16,7 +16,9 @@ All plugins have source code and compile instructions on their Github page and G
 You may need to create the folder 'plug-ins` if it does not exist. 
 There is a very low chance Windows users will need to reinstall Gimp for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. (before 2019)
 
-
+## Windows (portable apps)
+Search for gegl-0.4 make a plug-ins folder and put the binaries there or see if drive:\GIMPPortable\App\gimp\lib\gegl-0.4 exist and put the binaries there.
+ 
 #### download for Windows here
 [Top twenty something GEGL Plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/windows_top_gimp_gegl_plugins.zip) 
 
