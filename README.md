@@ -42,6 +42,64 @@ Includes Linux binaries and Source Code
   ## SNAP Linux (NUMBER 393 VARIES)
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
+
+
+## Compile Guide for Linux 
+
+
+### 1. Downloading the Plugins
+
+First, you need to download the GEGL plugins. from the link "Top twenty something GEGL Plugins for Linux and Source Code" which contains about 30 plugins as binaries ready for use but all 70+ plugins as source code only.
+
+### 2. Installing Required Packages
+Before you can use or compile the plugins, you need to have certain packages installed on your Linux system:
+
+- Ninja: A small build system with a focus on speed.
+- Meson: An open-source build system meant to be both extremely fast and user-friendly.
+- GEGL: The underlying graphics library used by GIMP.
+
+These can typically be installed via your distribution's package manager. For example, on Ubuntu, you can open a terminal and run:
+
+```
+sudo apt-get update
+sudo apt-get install ninja-build meson libgegl-dev
+```
+
+### 3. Compiling the Plugins (If Required)
+
+- If you've downloaded the source code and wish to compile the plugins, follow these steps:
+- Extract the Source Code: If the source code comes in a compressed file (like .zip or .tar.gz), extract it first.
+- Navigate to the Source Directory: Use the terminal to navigate to the directory where you've extracted the source code.
+- Run the Build Script: Execute the build_linux.sh script. This script should automate the compilation process. You can run it by typing:
+
+```
+./build_linux.sh
+
+```
+Ensure that this script is executable. If not, make it executable by running chmod +x build_linux.sh.
+
+### 4. Installing the Compiled Plugins
+
+- Locate the Compiled .so Files: After compilation, look for .so files in the build directory.
+- Copy the .so Files to the GEGL Plugins Directory: Use the command:
+
+```
+Linux 
+cp [source_path]/*.so /home/$(whoami)/.local/share/gegl-0.4/plug-ins/
+
+Linux  (Flatpak)
+cp [source_path]/*.so /home/$(whoami)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
+
+Do NOT have multiple copies of the binaries or put binaries in separate folders.
+
+```
+
+### 5. Restart GIMP
+After copying the files, restart GIMP. The new GEGL operations should now be available in GIMP.
+
+If pre-compiled binaries (.so files) are provided, you can skip the compilation steps. Just copy these .so files directly to the /home/$(whoami)/.local/share/gegl-0.4/plug-ins/ directory and restart GIMP.
+
+
   
 ## Mac OS (untested and no binaries) IF I GET HELP I MIGHT BE ABLE TO SUPPORT MAC.
 
