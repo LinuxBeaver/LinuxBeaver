@@ -45,6 +45,12 @@ Includes Linux binaries and Source Code
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
 
+## Future proofed plugins for 2025-2026 GEGL-0.4.46 breakage and Gimp (gegl:) namespace blockage.
+
+In 2025-2026 GEGL will break all nodes that use **gegl_node_connect_from** with **gegl_node_connect** The vast majority of my plugins use this 
+and Gimp will revoke all GEGL plugins that use the (gegl:) namespace. This download below contains Windows Binaries and source code for my plugins that are future proofed. They will break all presets unfortunately. 
+
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/Future_proofed_gegl_plugins_code_and_windows_binaries_gegl_446_and_up.zip
 
 ## Compile Guide for Linux 
 
