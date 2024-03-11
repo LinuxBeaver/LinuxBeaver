@@ -50,7 +50,7 @@ Includes Linux binaries and Source Code
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
-If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use my plugins. 
+If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use my march 11 2024 updated plugins. 
 
 ### Why do these plugins not work anymore after updating?
 
