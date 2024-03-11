@@ -6,7 +6,7 @@ March 11 2024 NEWS - If you already have my plugins and use Gimp 2.10 and don't 
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download twenty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have over 70 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more. Please note, my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. I have over 70 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more. Please note, my text styling filters are meant to be applied on text layers or raster copies of text layers and they are NOT capable of real time updates on text layers. However in the future this may be possible. In general most of my text styling plugins REQUIRE using white text and selecting "**layer to image size**" on a text layer before applying. It is even smart to make a back up layer of original text.
 
 ![image preview](text.png  )
 
@@ -26,7 +26,7 @@ There is a very low chance Windows users will need to reinstall Gimp for plugins
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
  
 #### download for Windows here
-[Top twenty something GEGL Plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/windows_top_gimp_gegl_plugins.zip) 
+[Top thirty something GEGL Plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/windows_top_gimp_gegl_plugins.zip) 
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
 
@@ -36,7 +36,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
 #### download for Linux here
-[Top twenty something GEGL Plugins for Linux and Source Code](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/linux_top_gimp_gegl_plugins.zip) 
+[Top thirty something GEGL Plugins for Linux and Source Code](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/linux_top_gimp_gegl_plugins.zip) 
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
@@ -69,7 +69,7 @@ Uh... this bug may happen on Windows  because you mixed new plugins compiled wit
 
 ### 1. Downloading the Plugins
 
-First, you need to download the GEGL plugins. from the link "Top twenty something GEGL Plugins for Linux and Source Code" which contains about 30 plugins as binaries ready for use but all 70+ plugins as source code only.
+First, you need to download the GEGL plugins. from the link "Top thirty something GEGL Plugins for Linux and Source Code" which contains over 30 plugins as binaries ready for use but all 70+ plugins as source code only.
 
 ### 2. Installing Required Packages
 Before you can use or compile the plugins, you need to have certain packages installed on your Linux system:
