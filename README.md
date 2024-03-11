@@ -48,7 +48,7 @@ Includes Linux binaries and Source Code
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
-If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak 2.10.34 and up you will **NOT** be able to use my plugins. 
+If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use my plugins. 
 
 ### Why do these plugins not work anymore after updating?
 
@@ -56,7 +56,11 @@ In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_fr
 Below is a download for the original plugins before the break happened. 
 
 GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect_plugins** but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
-**
+
+## Why do I have Gimp Fatal Error after updating your plugins?
+Uh... this bug may happen on Windows  because you mixed new plugins compiled with GEGL 0.4.46 with old ones compiled with GEGL 0.4.30 - Don't do that.
+
+
 ## Compile Guide for Linux 
 
 
