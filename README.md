@@ -47,15 +47,15 @@ Includes Linux binaries and Source Code
   .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
 
-## Future proofed plugins for 2025-2026 GEGL-0.4.46 breakage 
+## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
+If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak 2.10.34 and up you will **NOT** be able to use my plugins. 
 
-https://github.com/LinuxBeaver/GEGL_PLUGIN_PRESERVABILITY_PROJECT/
+### Why do these plugins not work anymore after updating?
 
-In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_from** with **gegl_node_connect** (that is the majority of them) This special repo contains the fix,
-but if Gimp is using versions of GEGL earlier then 0.4.46 it can't read **gegl_node_connect** so Ubuntu 20.04-22.04 and even Fedora 36-38 users won't be able to use my plugins in default.  
-This special repo contains the source code of all my plugins that work on GEGL-0.4.46 up. 
+In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
+Below is a download for the original plugins before the break happened. 
 
-GEGL 0.446 can make both **gegl_node_connect_from** and **gegl_node_connect_plugins** but earlier versions can only use **gegl_node_connect_from**
+GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect_plugins** but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
 **
 ## Compile Guide for Linux 
 
