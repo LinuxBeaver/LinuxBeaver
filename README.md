@@ -1,6 +1,8 @@
-FEB 27 2024 NEWS -  BEVEL,  CUSTOM BEVEL, SHARP BEVEL AND INNER GLOW WERE OFFICIALLY ACCEPTED INTO GEGL'S MASTER BRANCH AND WILL BE IN THE NEXT GIMP RELEASE 
+FEB 27 2024 NEWS -  BEVEL, CUSTOM BEVEL, SHARP BEVEL AND INNER GLOW WERE OFFICIALLY ACCEPTED INTO GEGL'S MASTER BRANCH AND WILL BE IN THE NEXT GIMP RELEASE 
 
 March 10 2024 NEWS - A SPECIAL BRANCH OF GEGL EFFECTS IS OFFICIALLY IN GIMP 3 - WE CALL IT GEGL STYLES
+
+March 11 2024 NEWS - If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 then don't update anymore as these plugins won't work on Gimp 2.10.32 / GEGL 0.4.46 or earlier.
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
@@ -54,6 +56,7 @@ If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak Gimp 2.10.34 and
 
 In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
 Below is a download for the original plugins before the break happened. 
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/pre_446_plugins_code_and_top_binaries.zip
 
 GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect_plugins** but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
 
