@@ -2,7 +2,7 @@ FEB 27 2024 NEWS -  BEVEL, CUSTOM BEVEL, SHARP BEVEL AND INNER GLOW WERE OFFICIA
 
 March 10 2024 NEWS - A SPECIAL BRANCH OF GEGL EFFECTS IS OFFICIALLY IN GIMP 3 - WE CALL IT GEGL STYLES
 
-March 11 2024 NEWS - If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 then don't update anymore as these plugins won't work on Gimp 2.10.32 / GEGL 0.4.46 or earlier.
+March 11 2024 NEWS - All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 then don't update them anymore as these new plugins won't work on Gimp 2.10.32 / GEGL 0.4.46 or earlier. Plugins now require GEGL 0.4.46 and up.
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
