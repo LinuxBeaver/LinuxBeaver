@@ -158,8 +158,6 @@ sudo xattr -rd com.apple.quarantine *`
 **Stable**
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
 
-or test its experimental update....
-https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/tree/GEGL-Effects-Continual-Experimental-update
   ![image preview](effects4.png )  
   
   This filter also ships with GEGL Inner Glow and GEGL Bevel and Glass on Text which are useful operations on their own.
