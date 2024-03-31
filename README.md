@@ -4,7 +4,7 @@
 Special builds of bevel, custom bevel, sharp bevel, inner glow and GEGL Effects were officially accepted into GEGL Master and are in Gimp 2.99.19. They will ship by default in Gimp 3.0's release.
 
 ### As of March 11 2024 my plugins require Gimp 2.10.34 and up
-All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 ** THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me.
+All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 **THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me.
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
