@@ -7,6 +7,9 @@ Special builds of bevel, custom bevel, sharp bevel, inner glow and GEGL Effects 
 All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 **THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me. You can test them by downloading the "Very Unstable" flatpak below.
 https://www.gimp.org/downloads/devel/
 
+### On May 26 2024 31 plugins of mine updated so they no longer crash GIMP 2.99.19+ on close. 
+Before these plugins would trigger an error warning on close in GIMP 2.99.19+. The update fixes it.
+
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. 
