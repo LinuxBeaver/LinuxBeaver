@@ -8,7 +8,7 @@ All my plugins updated on this date so the text stylers no longer clip in CMYK S
 https://www.gimp.org/downloads/devel/
 
 ### On May 26 2024 31 plugins of mine updated so they no longer crash GIMP 2.99.19+ on close. 
-Before these plugins would trigger an error warning on close in GIMP 2.99.19+. The update fixes it.
+Before these plugins would trigger an error warning when closing GIMP 2.99.19 
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
