@@ -176,7 +176,7 @@ https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/
 
   ![image preview](effects4.png )  
   
-  This filter also ships with GEGL Inner Glow and GEGL Bevel and Glass on Text which are useful operations on their own.
+  This filter also ships with GEGL Inner Glow and GEGL Bevel and GEGL Glass on Text which are useful operations on their own.
   
 ## 2. Custom Bevel
 
