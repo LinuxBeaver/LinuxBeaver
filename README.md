@@ -8,7 +8,7 @@ All my plugins updated on this date so the text stylers no longer clip in CMYK S
 https://www.gimp.org/downloads/devel/
 
 ### JUNE 20th 2024 41 plugins of mine updated so they no longer crash GIMP 2.99.19+ (GIMP 3) on close. 
-Before these plugins would trigger an error warning when closing GIMP 3 beta. You can update these 41 plugins here by overwriting all binaries of the previous ones you had. This includes win and linux binaries and source code in one place. Not all plugins are considered "top plugins" I only did this to make sure no one has the crash.
+Before these plugins would trigger an error warning when closing GIMP 3 beta. You can update these 41 plugins here by overwriting all binaries of the previous ones you had. This includes source code and win and linux binaries in one place. 
 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/june_19th2024_41_gegl_plugins_fixed_crash_on_close.zip
 
