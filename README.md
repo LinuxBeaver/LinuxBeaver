@@ -2,6 +2,7 @@
 
 ### Plugins of mine are officially in Gimp 3 
 Special builds of bevel, custom bevel, sharp bevel, inner glow and GEGL Effects were officially accepted into GEGL Master and are in Gimp 2.99.19. They will ship by default in Gimp 3.0's release. You can test them by downloading the "Very Unstable" flatpak below.
+
 https://www.gimp.org/downloads/devel/
 
 ### As of March 11 2024 my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
