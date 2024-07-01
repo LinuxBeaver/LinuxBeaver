@@ -5,10 +5,10 @@ Special builds of bevel, custom bevel, sharp bevel, inner glow and GEGL Effects 
 
 https://www.gimp.org/downloads/devel/
 
-### As of March 11 2024 my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
+### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
 All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use Gimp 2.10 and don't want to update to Gimp 3 **THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me. 
 
-### June 20th 2024 41 plugins of mine updated so they no longer crash GIMP 2.99.19+ (GIMP 3) on close. 
+### June 20th 2024 - 41 plugins of mine updated so they no longer crash GIMP 2.99.19+ (GIMP 3) on close. 
 Before these plugins would trigger an error warning when closing GIMP 3 beta. You can update these 41 plugins here by overwriting all binaries of the previous ones you had. This includes source code and win and linux binaries in one place. 
 
 ### JUNE 30th 2024 - a special build of GEGL Effects that can co-exist with the default without crashing GIMP 2.99.19 is here.
