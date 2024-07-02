@@ -10,10 +10,12 @@ All my plugins updated on this date so the text stylers no longer clip in CMYK S
 
 ### July 3rd 2024 - GIMP 2.99/3 users should not download from my normal repos and instead use this special repo that has about 60 plugins all in one place ready for GIMP 3.
 
+https://github.com/LinuxBeaver/GIMP_3_GEGL_plugin_bunker
+
 GIMP 2.99.19/GIMP 3 RC1 is causing extreme problems with my normal plugin repos. Any GEGL plugin of mine that uses gegl:crop and gegl:load internally has the potential to crash GIMP 3 on closing a window or tab. Until GIMP's team fixes the problem this the only way to fix it.
 This GIMP 2.10 and GIMP 3 plugins cannot co-exist anymore.  This is a special branch of all my plugins specifically meant for GIMP 3. If you use GIMP 2.99.19/GIMP 3 and want to use my plugins all your downloads should be here and you shall not mix GIMP 2.10 and GIMP 3 plugins. do not mix these plugins with normal plugins meant for GIMP 2.10. I have contacted GIMP's team about this problem hoping they fix it. 
 
-https://github.com/LinuxBeaver/GIMP_3_GEGL_plugin_bunker
+
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
