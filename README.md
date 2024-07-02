@@ -211,20 +211,10 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   ![image preview]( yellow_ballon.jpg )
 
   
-
-
-
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
 Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
 
-  
-## BTW, CHECK OUT THIS TEXT STYLE COLLECTION PLUGIN 
-This is a filter I made that has dozens of unique fancy text style presets, but they all have very little editability. Meaning you can't do much with their sliders but they are off the charts amazing such as things like "cake text".
-This filter ships with MANY other plugins of mine, so expect a surprise of bonuses. If you already have those plugins overwrite all of them with the latest version
 
-https://github.com/LinuxBeaver/Gimp-Text-Style-Collection-Plugin
-
-![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/d9ea38e4-7c73-4a88-b2f1-66e05fd8f6b5)
 
 
 
