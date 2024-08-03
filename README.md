@@ -8,6 +8,7 @@ https://www.gimp.org/downloads/devel/
 ### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
 All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use pre Gimp 2.10.34 and don't want to update to Gimp 3 **THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me. 
 
+*August 2 2024 update - GIMP's TEAM MAY HAVE JUST FIXED THIS PROBLEM  AND THIS BUNKER REPO MAY DISAPPEAR IN A FEW DAYS ONCE I CONFIRM IT
 ### July 3rd 2024 - GIMP 2.99/3 users should not download from my normal repos and instead use this special repo that has about 60 plugins all in one place ready for GIMP 3.
 
 -- Hopefully in the near future this repo can be removed and plugins work normal again-- 
