@@ -174,44 +174,50 @@ go to GEGL Operation. The plugin('s) *should work.  Each .dylib file needs to be
 may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
 sudo xattr -rd com.apple.quarantine *`
   
-  ## The five most recommended filters are in this particular order 
+  ## The seven most recommended filters are in this particular order 
   
 ### 1. GEGL Effects (The layer effects counter part)
-**Stable**
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
-
   ![image preview](effects4.png )  
   
-  This filter also ships with GEGL Inner Glow and GEGL Bevel and GEGL Glass on Text which are useful operations on their own.
+  This filter also ships with GEGL Inner Glow and GEGL Bevel and GEGL Glass on Text which are useful operations on their own; especailly bevel and inner glow which have many unique options.
   
 ## 2. Custom Bevel
-
-
 https://github.com/LinuxBeaver/GEGL-Custom-Bevel
   ![image preview](framed_GEGL3.png )
- 
 
-  
+  A classic bevel effect by combining gaussian blur and emboss
+ 
 ## 3. SSG
-A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
- What makes it better then dropshadow is that it applies the effect on its own layer. 
 https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
 ![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/498d25f9-7702-40d6-beeb-540833b3ee12)
+A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
+ What makes it better then dropshadow is that it applies the effect on its own layer. 
 
-## 4. Extrusion 2  
-   Just like the long shadow filter but it uses pixel data
-https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow
 
-   
+## 4. Extrusion 2 
+https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow  
 ![image preview](extrusion2.png  )
 
-  
+   Just like the long shadow filter but it uses pixel data
+
 ## 5. Glossy Balloon
-  A glossy bevelish effect that looks like glossy paste.
 https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   ![image preview]( yellow_ballon.jpg )
-
   
+  A glossy bevelish effect that looks like inflated glossy paste.
+
+## 6. Shapes (GIMP 2.99.19/3 recommended for quality use)
+https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
+![image](https://github.com/user-attachments/assets/c7f42289-a2df-400f-b790-55ac208d5d81)
+Draw circles, squares, ovals, recentangles and dividers amd control them with a non-destructive vignette filter. Make sure to uncheck the internal vignette checkbox on GIMP 3. On 2.10 keep internet vignette checked.
+
+## 7. Sharp Bevel
+https://github.com/LinuxBeaver/GEGL_sharp_bevel_gimp_plugin/
+![image](https://github.com/user-attachments/assets/ace23382-e28c-4edf-a35c-0839ba79f4e3)
+
+Custom Bevel has a cousin called Sharp Bevel which is made using distance transform and emboss as opposed to gaussian/box blur then emboss. As stated earlier a simple version of this plugin is in GIMP 3 that combines both sharp bevel and custom bevel's functionality. This plugin is far more advance with more technical features then the one that is in GIMP 3.
+
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
 Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
 
