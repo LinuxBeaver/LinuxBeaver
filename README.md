@@ -1,22 +1,12 @@
 # NEWS 
 
-### Plugins of mine are officially in Gimp 3 
-Special builds of bevel, custom bevel, sharp bevel, inner glow and GEGL Effects were officially accepted into GEGL Master and are in Gimp 2.99.19. They will ship by default in Gimp 3.0's release. You can test them by downloading the "Very Unstable" flatpak below.
-
-https://www.gimp.org/downloads/devel/
-
 ### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
-All my plugins updated on this date so the text stylers no longer clip in CMYK Student's non-destructive Gimp build. If you already have my plugins and use pre Gimp 2.10.34 and don't want to update to Gimp 3 **THEN DON'T UPDATE THEM ANYMORE** as these new plugins won't work on Gimp 2.10.32 or anything earlier then GEGL 0.4.46. Plugins now require GEGL 0.4.46 and up. This breakage was caused by GEGL officially not me. 
 
-### August 9th 2024 update regarding June 2024 "GIMP 3 BUNKER" 
+### August 9th 2024 news (bunker repo and organization) " 
 
- Gimp 3 plugins still have a special repo but it may not be needed anymore as the problem my plugins have in GIMP 3 also exist with native GIMP filters such as gegl:dropshadow, Meaning it is GIMP's teams job to fix this problem not mine and native GIMP filters also have the problem.
+ 1. Gimp 3 plugins still have a special repo but it may not be needed anymore as the problem my plugins have in GIMP 3 also exist with native GIMP filters such as gegl:dropshadow, Meaning it is GIMP's teams job to fix this problem not mine and native GIMP filters also have the problem. Please do not mix GIMP 3 bunker plugins with normal plugins. The bunker repo for GIMP 3 may disappear soon as it could be deprecated. 
 
-Please do not mix GIMP 3 bunker plugins with normal plugins. The bunker repo for GIMP 3 may disappear soon as it could be deprecated. 
-
-### August 9th 2024 organization update
-
-No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 75+ plugins of mine. The code base is now extremely well organized before it was a mess.
+2. No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 75+ plugins of mine. The code base is now extremely well organized before it was a mess.
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
