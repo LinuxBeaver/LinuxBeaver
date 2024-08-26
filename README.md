@@ -9,7 +9,7 @@
 2. No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 80+ plugins of mine. The code base is now extremely well organized before it was a mess.
 
 ### Aug 26th 2024 statement
-It has come to my attention recently that a large GIMP youtube channel back in July 2023 labeled my plugins "properitary" - hopefully by accident. All my plugins are 100% open source and even have friendly notes inside the code to help lay users understand them. Every single GEGL plugin I have ever published is licensed under the GPL3.
+It has come to my attention recently that a large GIMP youtube channel back in July 2023 labeled my plugins "properitary" - hopefully by accident. All my plugins are 100% open source and even have friendly notes inside the code to help lay users understand them. Every single GEGL plugin I have ever published is licensed under the GPL3 and its been that way since Day one in May 2022.
 
 
 Beaver's third party GEGL Gimp Plugins for Gimp
