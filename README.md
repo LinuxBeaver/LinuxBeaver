@@ -8,6 +8,10 @@
 
 2. No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 80+ plugins of mine. The code base is now extremely well organized before it was a mess.
 
+### Aug 26th 2024 statement
+It has come to my attention recently that a large GIMP youtube channel back in July 2023 labeled my plugins "properitary" - hopefully by accident. All my plugins are 100% open source and even have friendly notes inside the code to help lay users understand them. Every single GEGL plugin I have ever published is licensed under the GPL3.
+
+
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your boring bland text into fancy text easy. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the list can get crowded and you may not need all my filters. 
