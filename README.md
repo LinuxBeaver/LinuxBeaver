@@ -2,7 +2,7 @@
 
 ### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
 
-### August 28th 2024 news (bunker repo may be deprecated) " 
+### August 28th 2024 news (bunker repo may be deprecated)  
 
  1. Gimp 3 plugins still have a special repo but it may not be needed anymore as the problem my plugins have in GIMP 3 also exist with native GIMP filters such as gegl:dropshadow. As of 8-28-2024 GIMP's team hay have officially solved the problem; http://gimpchat.com/viewtopic.php?f=7&t=20876&p=291276#p291276.  The GIMP 3 bunker repo will be removed in under two weeks if no more crashes are found.
 
