@@ -8,8 +8,8 @@
 
 2. No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 80+ plugins of mine. The code base is now extremely well organized before it was a mess.
 
-### Sept 3 2023
-line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,`
+### Sept 3 2023 2.99.19 GEGL Effects has a rare crash
+line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` Please update GEGL Effects continual to Sept 3 2024 version to solve the rare crash
 
 ## 
 Beaver's third party GEGL Gimp Plugins for Gimp
