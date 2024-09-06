@@ -66,7 +66,7 @@ Includes Linux binaries and Source Code
 https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
-If you are using Ubuntu 20.04, 22.04, Fedora 38 without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use my march 11 2024 updated plugins. 
+If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
 
 ### Why do these plugins not work anymore after updating?
 
