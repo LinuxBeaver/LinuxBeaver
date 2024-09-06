@@ -74,6 +74,7 @@ In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_fr
 Below is a download for the original plugins before the break happened.
 
 **Plugin and Code download for Debian 10,11,12, Ubuntu 20.04 and 22.04 is here, this branch does not ever update**
+
 https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/pre_446_plugins_code_and_top_binaries.zip
 
 GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect** plugins but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
