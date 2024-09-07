@@ -6,7 +6,7 @@
 The GIMP 3 bunker repo appears to be no longer needed. GIMP 2.10 and GIMP 3 repos co-exist just fine due to Jehan (GIMP's lead dev) solving a bug on GIMP's side. In a few days the GIMP 3 repo will be archived.
 
 ### Sept 3-6 2024 2.99.19 GEGL Effects rare crash was solved
-line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` and zzstrokebevelimage.c's state-move was made the last node to solve the tile_dupe rror. Please update GEGL Effects continual to Sept 6 2024 version to solve the rare crash.
+line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` and zzstrokebevelimage.c's state->move (gegl:translate) was made the last node to solve a "tile_dup" error. Please update GEGL Effects continual to Sept 6 2024 version to solve the rare crash that only happens in GIMP 3.
 
 ## 
 Beaver's third party GEGL Gimp Plugins for Gimp
