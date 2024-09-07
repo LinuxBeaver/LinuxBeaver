@@ -1,15 +1,12 @@
 # NEWS 
 
-### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19
+### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19. Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-### August 28th 2024 news (bunker repo may be deprecated)  
+### August 28th 2024 news (bunker repo is a deprecated mistake)  
+The GIMP 3 bunker repo appears to be no longer needed. GIMP 2.10 and GIMP 3 repos co-exist just fine due to Jehan (GIMP's lead dev) solving a bug on GIMP's side. In a few days the GIMP 3 repo will be archived.
 
-1. Gimp 3 plugins still have a special repo but it may not be needed anymore as the problem my plugins have in GIMP 3 also exist with native GIMP filters such as gegl:dropshadow. As of 8-28-2024 GIMP's team hay have officially solved the problem; http://gimpchat.com/viewtopic.php?f=7&t=20876&p=291276#p291276.  The GIMP 3 bunker repo will be removed in under two weeks if no more crashes are found.
-
-2. No new features were added to my plugins, but it has never been easier to compile my GEGL plugins. One click now compiles all 80+ plugins of mine. The code base is now extremely well organized before it was a mess.
-
-### Sept 3 2024 2.99.19 GEGL Effects has a rare crash
-line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` Please update GEGL Effects continual to Sept 3 2024 version to solve the rare crash
+### Sept 3-6 2024 2.99.19 GEGL Effects rare crash was solved
+line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` and zzstrokebevelimage.c's state-move was made the last node to solve the tile_dupe rror. Please update GEGL Effects continual to Sept 6 2024 version to solve the rare crash.
 
 ## 
 Beaver's third party GEGL Gimp Plugins for Gimp
