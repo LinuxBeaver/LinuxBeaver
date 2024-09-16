@@ -1,12 +1,17 @@
 # NEWS 
 
-### March 11 2024 - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19. Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
+### March 10 2024 news - plugins of mine are officially in GIMP 3
+GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts that are officially in GIMP 2.99.19/GEGL 0.4.49 and will be in GIMP 3.
 
-### August 28th 2024 news (bunker repo is a deprecated mistake)  
-The GIMP 3 bunker repo appears to be no longer needed. GIMP 2.10 and GIMP 3 repos co-exist just fine due to Jehan (GIMP's lead dev) solving a bug on GIMP's side. In a few days the GIMP 3 repo will be archived.
+### March 11 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19.
+Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-### Sept 3-6 2024 2.99.19 GEGL Effects rare crash was solved
-line 1567 of GEGL effects was fixed to only contain `"operation", "lb:bevel",` and not the additional `"th", 0.100,` and zzstrokebevelimage.c's state->move (gegl:translate) was made the last node to solve a "tile_dup" error. Please update GEGL Effects continual to Sept 6 2024 version to solve the rare crash that only happens in GIMP 3.
+### August 28th 2024 news - (bunker repo was a deprecated mistake)  
+The GIMP 3 bunker repo is no longer needed. GIMP 2.10 and GIMP 3 repos co-exist just fine due to Jehan (GIMP's lead dev) solving a bug on GIMP's side. The bunker repo is now archived. If you have bunker repo plugins please remove them and replace them with normal plugins of mine.
+
+### Sept 16 2024 news - GEGL Effects "tile dup" crash was solved once and for all
+GEGL Effects udpated a week ago to solve part of its "tile dup" crash but its dependency bevel updated sept 16 2024 to solve another part of the tile dup crash, it seems to be gone now.
+Put simply if you want to solve a crash update to the latest version of GEGL Effects. If not GEGL Effects and bevel in GIMP 2.99.19 will have a rare crash.
 
 ## 
 Beaver's third party GEGL Gimp Plugins for Gimp
