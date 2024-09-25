@@ -173,7 +173,7 @@ go to GEGL Operation. The plugin('s) *should work.  Each .dylib file needs to be
 may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
 sudo xattr -rd com.apple.quarantine *`
   
-  ## The seven most recommended filters are in this particular order 
+  ## The six most recommended filters are in this particular order 
   
 ### 1. GEGL Effects (The layer effects counter part)
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
@@ -211,20 +211,8 @@ https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
 ![image](https://github.com/user-attachments/assets/c7f42289-a2df-400f-b790-55ac208d5d81)
 Draw circles, squares, ovals, recentangles and dividers amd control them with a non-destructive vignette filter. Make sure to uncheck the internal vignette checkbox on GIMP 3. On 2.10 keep internet vignette checked.
 
-## 7. Sharp Bevel
-https://github.com/LinuxBeaver/GEGL_sharp_bevel_gimp_plugin/
-![image](https://github.com/user-attachments/assets/ace23382-e28c-4edf-a35c-0839ba79f4e3)
-
-Custom Bevel has a cousin called Sharp Bevel which is made using distance transform and emboss as opposed to gaussian/box blur then emboss. As stated earlier a simple version of this plugin is in GIMP 3 that combines both sharp bevel and custom bevel's functionality. This plugin is far more advance with more technical features then the one that is in GIMP 3.
-
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
 Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
-
-
-
-
-
-
 
 ## Lastly, (common complaint), If GEGL Effects breaks after downloading a new plugin of mine that is because the new plugin has a more recent dependency GEGL Effects needed, this can easily be fixed  by updating to the latest version of GEGL Effects.
   
