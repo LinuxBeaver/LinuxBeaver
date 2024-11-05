@@ -1,7 +1,8 @@
 # NEWS 
 
-### March 10 2024 news - plugins of mine are officially in GIMP 3
-GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts that are officially in GIMP 2.99.19/GEGL 0.4.49 and will be in GIMP 3.
+### GIMP 3 RC1 release - Plugins of mine are officially in GIMP 3
+
+GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts that are officially in GIMP 3 RC1 
 
 ### March 11 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19.
 Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
