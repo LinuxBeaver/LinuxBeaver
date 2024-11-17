@@ -7,14 +7,15 @@ GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts
 ### March 11 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19.
 Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-### August 28th 2024 news - (bunker repo was a deprecated mistake)  
-The GIMP 3 bunker repo is no longer needed. GIMP 2.10 and GIMP 3 repos co-exist just fine due to Jehan (GIMP's lead dev) solving a bug on GIMP's side. The bunker repo is now archived. If you have bunker repo plugins please remove them and replace them with normal plugins of mine.
-
 ### Sept 16 2024 news - GEGL Effects "tile dup" crash was solved once and for all
 GEGL Effects udpated a week ago to solve part of its "tile dup" crash but its dependency bevel updated sept 16 2024 to solve another part of the tile dup crash, it seems to be gone now.
 Put simply if you want to solve a crash update to the latest version of GEGL Effects. If not GEGL Effects and bevel in GIMP 2.99.19 will have a rare crash.
 
-## 
+### Nov 17 2024 news - Emergency repo is returning (it breaks no presets)
+A new bunker repo is returning and it is 100% optional but GIMP does crash if two or more layer effects use image files more then once. The bunker repo solves the problem by hiding all image uploads. Meaning image uploads are not removed but hidden.  The bunker repo download is here. Feel free to use this branch or normal repos. They are safe to swap unlike the old bunker repo. 
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/nov_17_2024_image_upload_removal_all_plugins.zip
+
+ 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 80 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
