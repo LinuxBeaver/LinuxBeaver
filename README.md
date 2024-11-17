@@ -13,6 +13,7 @@ Put simply if you want to solve a crash update to the latest version of GEGL Eff
 
 ### Nov 17 2024 news - Emergency repo is returning (it breaks no presets)
 A new bunker repo is returning and it is 100% optional but GIMP does crash if two or more layer effects use image files more then once. The bunker repo solves the problem by hiding all image uploads. Meaning image uploads are not removed but hidden.  The bunker repo download is here. Feel free to use this branch or normal repos. They are safe to swap unlike the old bunker repo. 
+
 https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/nov_17_2024_image_upload_removal_all_plugins.zip
 
  
