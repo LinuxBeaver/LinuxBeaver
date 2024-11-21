@@ -25,7 +25,7 @@ Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes 
 It is recommended to apply my filters on raster duplicates of text layers in GIMP 2.10
 
 ## In 2.99.18+ 
-In 2.99.19 (what I use) just type text, press escape  and apply the filter (thats it! a lot less work) The reason we press escape key is so we can escape the text editing and access the search menu to search for a plugin of mine. Text layers in 2.99.19 are capable of real time updates on text layers due to NDE. 
+In GIMP 3 RC1+ (what I use) just type text, press escape  and apply the filter (thats it! a lot less work) The reason we press escape key is so we can escape the text editing and access the search menu to search for a plugin of mine. Text layers in 2.99.19 are capable of real time updates on text layers due to NDE. 
 
 Both 2.10 and 2.99.19 share a common theme where white text allows the plugin to recolor the text to anything
 
