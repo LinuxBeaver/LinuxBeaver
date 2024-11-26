@@ -7,12 +7,10 @@ GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts
 ### March 11 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19.
 Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-### Sept 16 2024 news - GEGL Effects "tile dup" crash was solved once and for all
-GEGL Effects udpated a week ago to solve part of its "tile dup" crash but its dependency bevel updated sept 16 2024 to solve another part of the tile dup crash, it seems to be gone now.
-Put simply if you want to solve a crash update to the latest version of GEGL Effects. If not GEGL Effects and bevel in GIMP 2.99.19 will have a rare crash.
+### Nov 2024 news - A crash in GIMP 3 only was found. Update here 
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/bunker_repo_no_crash.zip
 
-### Nov 17 2024 news - Emergency repo is returning (it breaks no presets)
-A new bunker repo is returning and it is 100% optional but GIMP does crash if two or more layer effects use image files more then once. The bunker repo solves the problem by hiding all image uploads. Meaning image uploads are not removed but hidden.  The bunker repo download is here. Feel free to use this branch or normal repos. They are safe to swap unlike the old bunker repo. 
+This is a bunker repo meant to solve an emergency crash. Bunker repo now works with image uploads and causes no conflicts with normal plugins when mixed. This repo `bunker_repo_no_crash.zip` contains code and binaries of everything. It is soon to be everywhere on Github replacing default repo. Without this bunker repo certain image uploads with plugins of mine that do image uploads will crash GIMP 3. This bunker repo is meant to entirely replace my default repo.
 
 ### Nov 20 2024 news - A awesome new general purpose text styling engine that can make 1000s of text styles like Effects named "Text Logo maker" debuted
 
