@@ -10,7 +10,7 @@ Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flat
 ### Nov 2024 news - A crash in GIMP 3 only was found. Update here 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/bunker_repo_no_crash.zip
 
-This is a bunker repo meant to solve an emergency crash. Bunker repo now works with image uploads and causes no conflicts with normal plugins when mixed. This repo `bunker_repo_no_crash.zip` contains code and binaries of everything. It is soon to be everywhere on Github replacing default repo. Without this bunker repo certain image uploads with plugins of mine that do image uploads will crash GIMP 3. This bunker repo is meant to entirely replace my default repo.
+This is a bunker repo meant to solve an emergency crash. Bunker repo now works with image uploads and causes no conflicts with normal plugins when mixed. This repo `bunker_repo_no_crash.zip` contains code and binaries of everything. It is soon to be everywhere on Github replacing all default repos. Without this bunker repo uploading images with plugins of mine that do image uploads may crash GIMP 3. This bunker repo will eplace everything soon. 
 
 ### Nov 20 2024 news - A awesome new general purpose text styling engine that can make 1000s of text styles like Effects named "Text Logo maker" debuted
 
