@@ -1,24 +1,29 @@
 # NEWS 
 
-### GIMP 3 RC1 release - Plugins of mine are officially in GIMP 3
+### March 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19 and plugins of mine are officially in GIMP 3.
 
-GEGL Effects, Bevel, Custom Bevel, Sharp Bevel and  Inner Glow have counterparts that are officially in GIMP 3 RC1 
+Debian 10-12 and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-### March 11 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19.
-Debian and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
+Off topic from that the text clipping is gone to make live text editing workflows easier and last but not least, infact the best news is that plugins of mine are officially in GIMP 3. 
 
-### Nov 2024 news - A crash in GIMP 3 only was found. Update here 
-https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/bunker_repo_no_crash.zip
+On March 10 2024 Bevel, Custom Bevel, Sharp Bevel, Inner Glow and GEGL Effects Continual counterparts were officially accepted in GIMP 3 and are in GIMP 3 RC1 under the names "bevel" "inner glow" and "styles". Bevel is basically 3 bevel plugins of mine in one which is pretty cool. 
 
-This is a bunker repo meant to solve an emergency crash. Bunker repo now works with image uploads and causes no conflicts with normal plugins when mixed. This repo `bunker_repo_no_crash.zip` contains code and binaries of everything. It is soon to be everywhere on Github replacing all default repos. Without this bunker repo uploading images with plugins of mine that do image uploads may crash GIMP 3. This bunker repo will eplace everything soon. 
+### Nov 2024 news - A crash in GIMP 3 only was found. Update here! Plus a new text styler.
 
-### Nov 20 2024 news - A awesome new general purpose text styling engine that can make 1000s of text styles like Effects named "Text Logo maker" debuted
+All plugins  updated to solve the "double image upload" crash, a quick download for everything can be found below on GimpChat or you can go to normal Github repos as all of them have the latest version. Mixing plugins before and after the crash fix, other then the crash still happening (obviously) may result in certain image uploads not working; which is harmless but a feature lost. That is why I provided all 98 binaries to replace everything in gegl-04/plugins with the latest stuff. So when updating please delete all old plugins and replace them with the latest.  I am confident that this will be the last major update to my plugins ever due to the fact that that was the last major pesky bug. This use to be the image upload bunker repo that shortly existed.
+
+Download all 90+ plugins here or compile from Github to solve crash. 
+
+http://gimpchat.com/viewtopic.php?f=9&t=21452 (includes windows and linux binaries)
+
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip
+
+--
+
+Secondly dose of Nov 2024 news, a new text styling plugin "Text Logo Maker" that is like GEGL Effects with some trade offs can be found below. It may have less features then GEGL Effects (in some areas) but it is significantly faster and still styles text thousands of ways and likely covers what most users need. Live non-destructive text editing is possible with Effects, Styles and Logo maker, Logo maker is just the fastest. Technical explanation for why it is the fasest to update is because I have a better understanding of what GEGL nodes run fast and what run slow and while making Logo Maker I optimized it for speed. It is not a race horse lol, but you will notice less of a wait then GEGL Effects. I do not plan on deprecating GEGL Effects with Logo Maker, both will co-exist forever.
 
 https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_Logo_Maker
 
-https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/nov_17_2024_image_upload_removal_all_plugins.zip
-
- 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 90 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
