@@ -53,7 +53,8 @@ There is a very low chance Windows users will need to reinstall Gimp for plugins
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
  
 #### download for Windows here
-[Top thirty something GEGL Plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/windows_top_gimp_gegl_plugins.zip) 
+[Download all plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/WindowsBinaries_all_plugins.zip) 
+
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
 
@@ -63,7 +64,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 ## Linux 
 .so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
 #### download for Linux here
-[Top thirty something GEGL Plugins for Linux and Source Code](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/linux_top_gimp_gegl_plugins.zip) 
+[Download all plugins for Linux here](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/LinuxBinaries_all_plugins.zip) 
 
  The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
@@ -78,7 +79,7 @@ Includes Linux binaries and Source Code
 
 ## Source Code only of all 90+ GEGL plugins
 
-https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip
+[https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip)
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
 If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
@@ -103,7 +104,7 @@ This bug may happen on Windows  because you mixed new plugins compiled with GEGL
 
 ### 1. Downloading the Plugins
 
-First, you need to download the GEGL plugins. from the link "Top thirty something GEGL Plugins for Linux and Source Code" which contains over 30 plugins as binaries ready for use but all 70+ plugins as source code only.
+First, you need to download the GEGL plugins. The front page contains a link to download all of them. 
 
 ### 2. Installing Required Packages
 Before you can use or compile the plugins, you need to have certain packages installed on your Linux system:
