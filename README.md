@@ -10,13 +10,7 @@ On March 10 2024 Bevel, Custom Bevel, Sharp Bevel, Inner Glow and GEGL Effects C
 
 ### Nov 2024 news - A crash in GIMP 3 only was found. Update here! Plus a new text styler.
 
-All plugins  updated to solve the "double image upload" crash, a quick download for everything can be found below on GimpChat or you can go to normal Github repos as all of them have the latest version. Mixing plugins before and after the crash fix, other then the crash still happening (obviously) may result in certain image uploads not working; which is harmless but a feature lost. That is why I provided all 98 binaries to replace everything in gegl-04/plugins with the latest stuff. So when updating please delete all old plugins and replace them with the latest.  I am confident that this will be the last major update to my plugins ever due to the fact that that was the last major pesky bug. This use to be the image upload bunker repo that shortly existed.
-
-Download all 90+ plugins here or compile from Github to solve crash. 
-
-http://gimpchat.com/viewtopic.php?f=9&t=21452 (includes windows and linux binaries)
-
-https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip
+All plugins  updated to solve the "double image upload" crash, a quick download for everything can be found below
 
 --
 
