@@ -4,13 +4,15 @@
 
 Debian 10-12 and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
 
-Off topic from that the text clipping is gone to make live text editing workflows easier and last but not least, infact the best news is that plugins of mine are officially in GIMP 3. 
-
-On March 10 2024 Bevel, Custom Bevel, Sharp Bevel, Inner Glow and GEGL Effects Continual counterparts were officially accepted in GIMP 3 and are in GIMP 3 RC1 under the names "bevel" "inner glow" and "styles". Bevel is basically 3 bevel plugins of mine in one which is pretty cool. 
+On March 10 2024 Bevel, Custom Bevel, Sharp Bevel, Inner Glow and GEGL Effects Continual counterparts were officially accepted in GIMP 3 and are in GIMP 3 RC1 under the names "bevel" "inner glow" and "styles". Bevel is basically three bevel plugins of mine in one; which is pretty cool. 
 
 ### Nov 2024 news - A crash in GIMP 3 only was found. Update here! Plus a new text styler.
 
 All plugins  updated to solve the "double image upload" crash, a quick download for everything can be found below
+
+### Download code and binaries for everything here
+
+https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugins_download_page
 
 --
 
