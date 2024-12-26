@@ -14,12 +14,6 @@ All plugins  updated to solve the "double image upload" crash, a quick download 
 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugins_download_page
 
---
-
-Secondly dose of Nov 2024 news, a new text styling plugin "Text Logo Maker" that is like GEGL Effects with some trade offs can be found below. It may have less features then GEGL Effects (in some areas) but it is significantly faster and still styles text thousands of ways and likely covers what most users need. Live non-destructive text editing is possible with Effects, Styles and Logo maker, Logo maker is just the fastest. Technical explanation for why it is the fasest to update is because I have a better understanding of what GEGL nodes run fast and what run slow and while making Logo Maker I optimized it for speed. It is not a race horse lol, but you will notice less of a wait then GEGL Effects. I do not plan on deprecating GEGL Effects with Logo Maker, both will co-exist forever.
-
-https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_Logo_Maker
-
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
