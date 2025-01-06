@@ -12,7 +12,7 @@ All plugins  updated to solve the "double image upload" crash, a quick download 
 
 ### Download code and binaries for everything here
 
-https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugins_download_page
+https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_download_page
 
 Beaver's third party GEGL Gimp Plugins for Gimp
 =========
