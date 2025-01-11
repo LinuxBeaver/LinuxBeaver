@@ -43,7 +43,7 @@ There is a very low chance Windows users will need to reinstall Gimp for plugins
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
  
 #### download for Windows here
-[Download all plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/WindowsBinaries_all_plugins.zip) 
+[Download all plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/WindowsBinaries_all_plugins.zip) 
 
 
 If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
@@ -69,7 +69,7 @@ Includes Linux binaries and Source Code
 
 ## Source Code only of all 100+ GEGL plugins
 
-[https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/source_code_of_all_GEGL_plugin.zip)
+[https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip)
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
 If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
@@ -81,7 +81,7 @@ Below is a download for the original plugins before the break happened.
 
 **Plugin and Code download for Debian 10,11,12, Ubuntu 20.04 and 22.04 is here, this branch does not ever update**
 
-https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugins_download_page/pre_446_plugins_code_and_top_binaries.zip
+https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/pre_446_plugins_code_and_top_binaries.zip
 
 GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect** plugins but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
 
