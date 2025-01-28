@@ -52,7 +52,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
   
 ## Linux 
-.so file filter binaries go in `/home/(USERNAME)/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
+.so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
 #### download for Linux here
 [Download all plugins for Linux here](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/LinuxBinaries_all_plugins.zip) 
 
@@ -61,10 +61,10 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 Includes Linux binaries and Source Code 
 
 ## FLATPAK Linux (INCLUDES CHROMEBOOK GIMP AS FLATPAK) 
-  so. file filter binaries go in `/home/(USERNAME)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
+  so. file filter binaries go in `~/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
   
   ## SNAP Linux (NUMBER 393 VARIES)
-  .so file filter binaries go `/home/USERNAME/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
+  .so file filter binaries go `~/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
 
 ## Source Code only of all 100+ GEGL plugins
