@@ -69,7 +69,7 @@ If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.
 
 ### Why do these plugins not work anymore after updating?
 
-In 2025-2026 GEGL's lead dev may break all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
+In 2025-2026 GEGL deprecated all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
 Below is a download for the original plugins before the break happened.
 
 **Plugin and Code download for Debian 10,11,12, Ubuntu 20.04 and 22.04 is here, this branch does not ever update**
