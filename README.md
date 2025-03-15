@@ -1,14 +1,6 @@
 # NEWS 
 
-### March 2024 news - my plugins require Gimp 2.10.34 and up and no longer clip in Gimp 2.99.19 and plugins of mine are officially in GIMP 3.
-
-Debian 10-12 and Ubuntu 20-22 users will need to use the special pre 446 build or Flatpak GIMP.
-
-On March 10 2024 Bevel, Custom Bevel, Sharp Bevel, Inner Glow and GEGL Effects Continual counterparts were officially accepted in GIMP 3 and are in GIMP 3 RC1 under the names "bevel" "inner glow" and "styles". Bevel is basically three bevel plugins of mine in one; which is pretty cool. 
-
-### Nov 2024 news - A crash in GIMP 3 only was found. Update here! Plus a new text styler.
-
-All plugins  updated to solve the "double image upload" crash, a quick download for everything can be found below
+GIMP 3 is released and it is highly recommended to use my plugins on 3 as opposed to GIMP 2.10. Though they will work on both.
 
 ### Download code and binaries for everything here
 
@@ -18,13 +10,13 @@ Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
 
-## In 2.10 
-It is recommended to apply my filters on raster duplicates of text layers in GIMP 2.10
+## In GIMP 2.10 
+It is recommended to apply my filters on raster duplicates of text layers in GIMP 2.10. So you have to go through a manual step of making a text layer, rasterizing it then applying a filter.
 
-## In 2.99.18+ 
-In GIMP 3 RC1+ (what I use) just type text, press escape  and apply the filter (thats it! a lot less work) The reason we press escape key is so we can escape the text editing and access the search menu to search for a plugin of mine. Text layers in 2.99.19 are capable of real time updates on text layers due to NDE. 
+## In GIMP 3
+In GIMP 3 (what I use) just type text, press escape  and apply the filter (thats it! a lot less work) The reason we press escape key is so we can escape the text editing and access the search menu to search for a plugin of mine. Text layers in GIMP 3 are capable of real time updates due to NDE. 
 
-Both 2.10 and 2.99.19 share a common theme where white text allows the plugin to recolor the text to anything
+Both GIMP 2.10 and GIMP 3 share a common theme where white text allows the plugin to recolor the text to anything
 
 ![image preview](text.png  )
 
@@ -37,7 +29,8 @@ All plugins have source code and compile instructions on their Github page and G
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open "GEGL Operation".
 You may need to create the folder 'plug-ins` if it does not exist. 
-There is a very low chance Windows users will need to reinstall Gimp for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. (before 2019)
+
+There is a very low chance Windows users will need to reinstall Gimp for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. 
 
 ## Windows (portable apps)
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
@@ -76,7 +69,7 @@ If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.
 
 ### Why do these plugins not work anymore after updating?
 
-In 2025-2026 GEGL will break all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
+In 2025-2026 GEGL's lead dev may break all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
 Below is a download for the original plugins before the break happened.
 
 **Plugin and Code download for Debian 10,11,12, Ubuntu 20.04 and 22.04 is here, this branch does not ever update**
@@ -210,7 +203,7 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
   
   A glossy bevelish effect that looks like inflated glossy paste.
 
-## 6. Shapes (GIMP 2.99.19/3 recommended for quality use)
+## 6. Shapes (GIMP 3 recommended for quality use)
 https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
 ![image](https://github.com/user-attachments/assets/c7f42289-a2df-400f-b790-55ac208d5d81)
 Draw circles, squares, ovals, recentangles and dividers amd control them with a non-destructive vignette filter. Make sure to uncheck the internal vignette checkbox on GIMP 3. On 2.10 keep internet vignette checked.
