@@ -10,6 +10,8 @@ Beaver's third party GEGL Gimp Plugins for Gimp
 =========
 Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download thirty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
 
+![image preview](text.png  )
+
 ## In GIMP 2.10 
 It is recommended to apply my filters on raster duplicates of text layers in GIMP 2.10. So you have to go through a manual step of making a text layer, rasterizing it then applying a filter.
 
@@ -18,7 +20,7 @@ In GIMP 3 (what I use) just type text, press escape  and apply the filter (thats
 
 Both GIMP 2.10 and GIMP 3 share a common theme where white text allows the plugin to recolor the text to anything
 
-![image preview](text.png  )
+
 
 ![image preview](styles.png  )
 
