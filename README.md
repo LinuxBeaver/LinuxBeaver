@@ -20,7 +20,7 @@ It is recommended to apply my filters on raster duplicates of text layers in GIM
 ## In GIMP 3
 In GIMP 3 (what I use) just type text, press escape  and apply the filter (thats it! a lot less work) The reason we press escape key is so we can escape the text editing and access the search menu to search for a plugin of mine. Text layers in GIMP 3 are capable of real time updates due to NDE. 
 
-Both GIMP 2.10 and GIMP 3 share a common theme where white text allows the plugin to recolor the text to anything
+Both GIMP 2.10 and GIMP 3 share a common theme where white text allows some plugins to recolor the text to anything
 
 ![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/2fe6a8ed-e903-432d-ac7c-872200b3eeb8)
 
