@@ -2,6 +2,8 @@
 
 GIMP 3 is released and it is highly recommended to use my plugins on 3 as opposed to GIMP 2.10. Though they will work on both. Make sure to try out native GIMP 3 fiters (Styles, Bevel and Inner Glow) which are plugins of mine officially in GIMP 3.
 
+NOTE, my plugins don't work with the official GIMP 3 appimage. But they do work on everything else.
+
 ### Download code and binaries for everything here
 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_download_page
