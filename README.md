@@ -231,8 +231,31 @@ Add a sparkle effect to images
 
 ![image](https://github.com/user-attachments/assets/4c2c8456-8f81-48c1-b419-d7e246d6564d)
 
+## 6. The background design plugins
 
-## 6. Shapes (GIMP 3 recommended for quality use)
+These plugins render background designs. Listed horizontally by three their names are  
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Oceans_Surface
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Marble
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_starburst
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_star_background
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_starfield
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_clouds
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Stripes
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Polygons
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_rock_surface
+
+![image](https://github.com/user-attachments/assets/827667d9-f62a-4ecb-b795-8a5327c1ea1e)
+
+## 7. Shapes (GIMP 3 recommended for quality use)
 https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
 ![image](https://github.com/user-attachments/assets/c7f42289-a2df-400f-b790-55ac208d5d81)
 Draw circles, squares, ovals, recentangles and dividers amd control them with a non-destructive vignette filter. Make sure to uncheck the internal vignette checkbox on GIMP 3. On 2.10 keep internet vignette checked.
