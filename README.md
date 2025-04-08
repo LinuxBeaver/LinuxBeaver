@@ -40,8 +40,7 @@ Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see
 #### download for Windows here
 [Download all plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/WindowsBinaries_all_plugins.zip) 
 
-
-If you choose to not use binaries this is how you compile my plugins on Windows. When compiling run the `build_linux.sh ` files with MySys2.
+If compiling run the `build_plugin_windows.sh ` files with MySys2.
 
 http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
@@ -50,8 +49,6 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 .so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
 #### download for Linux here
 [Download all plugins for Linux here](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/LinuxBinaries_all_plugins.zip) 
-
- The only packages needed to compile on Linux are `ninja`, `meson` and `gegl`. On most distros you should be able to press the build_linux.sh and go.
 
 Includes Linux binaries and Source Code 
 
