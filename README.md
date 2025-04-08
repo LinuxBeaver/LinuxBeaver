@@ -66,6 +66,17 @@ Includes Linux binaries and Source Code
 
 [https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip)
 
+Source Code of all plugins contains a collection of over 100 GIMP plugins based on the engine GEGL. 
+
+##  How to compile an individual GEGL plugins
+
+Running the script **build_plugin_linux.sh** will compile an invidiual plugin with all its dependency binaries if needed inside a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
+
+
+##  How to compile all 100+ GEGL plugins
+Running **build_everything_linux.sh** will compile everything in a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
+
+
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
 If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
 
@@ -84,8 +95,9 @@ GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect** pl
 This bug may happen on Windows  because you mixed new plugins compiled with GEGL 0.4.46 with old ones compiled with GEGL 0.4.30 - Don't do that.
 
 
-## Compile Guide for Linux 
+## Technical compile Guide for Linux 
 
+**build_plugin_linux.sh** and **build_everything_linux.sh** is the easy way to compile everything but this is guide goes over all requirements
 
 ### 1. Downloading the Plugins
 
@@ -105,18 +117,18 @@ sudo apt-get update
 sudo apt-get install ninja-build meson libgegl-dev
 ```
 
-### 3. Compiling the Plugins (If Required)
+### 3. Compiling the Plugins 
 
 - If you've downloaded the source code and wish to compile the plugins, follow these steps:
 - Extract the Source Code: If the source code comes in a compressed file (like .zip or .tar.gz), extract it first.
 - Navigate to the Source Directory: Use the terminal to navigate to the directory where you've extracted the source code.
-- Run the Build Script: Execute the build_linux.sh script. This script should automate the compilation process. You can run it by typing:
+- Run the Build Script: Execute the build_plugin_linux.sh script. This script should automate the compilation process. You can run it by typing:
 
 ```
-./build_linux.sh
+./build_plugin_linux.sh
 
 ```
-Ensure that this script is executable. If not, make it executable by running chmod +x build_linux.sh.
+Ensure that this script is executable. If not, make it executable by running chmod +x build_plugin_linux.sh.
 
 ### 4. Installing the Compiled Plugins
 
@@ -172,38 +184,58 @@ go to GEGL Operation. The plugin('s) *should work.  Each .dylib file needs to be
 may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
 sudo xattr -rd com.apple.quarantine *`
   
-  ## The six most recommended filters are in this particular order 
+  ## Recommended plugins
   
-### 1. GEGL Effects (The layer effects counter part)
+### 1. GEGL Effects CE (The layer fx counter part)
+
+This one filter can make 1000s of text styles.  This filter also ships with other plugins GEGL Inner Glow and GEGL Bevel and GEGL Glass on Text which are useful operations on their own in stand alone mode.
+
 https://github.com/LinuxBeaver/GEGL-Effects---Layer-Effects-in-Gimp-using-GEGL/ 
-  ![image preview](effects4.png )  
-  
-  This filter also ships with GEGL Inner Glow and GEGL Bevel and GEGL Glass on Text which are useful operations on their own; especailly bevel and inner glow which have many unique options.
-  
-## 2. Custom Bevel
-https://github.com/LinuxBeaver/GEGL-Custom-Bevel
-  ![image preview](framed_GEGL3.png )
+![image](https://github.com/user-attachments/assets/02b50c3c-e481-4ca3-a8fe-abd511391ee3)
 
-  A classic bevel effect by combining gaussian blur and emboss
+![image](https://github.com/user-attachments/assets/3fda13f4-87d2-435b-879a-c5d5c249ca5d)
+
+
+## 2. The Bevels (Bump, Chamfer, Ring, Edge)
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_custom_bevel/ (bump)
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Sharp_bevel/ (chamfer)
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Edge_Bevel/
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Ringed_Bevel/
+
+![image](https://github.com/user-attachments/assets/6d154a06-1328-4b70-b1ce-a7ffd5172952)
+
  
-## 3. SSG
-https://github.com/LinuxBeaver/GEGL-SSG-Stroke-Shadow-Glow-/
-![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/498d25f9-7702-40d6-beeb-540833b3ee12)
-A improved version of Gimp's Drop Shadow filter but it starts as a outline and knocks out the original image unless set to normal blend mode. Then it will behave like a normal outline and shadow. It even has an image file overlay mode. 
- What makes it better then dropshadow is that it applies the effect on its own layer. 
+## 3. Extrusion Long Shadow
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Extrusion_2
 
-
-## 4. Extrusion 2 
-https://github.com/LinuxBeaver/GEGL-Extrusion-2----Fork-of-GEGL-Long-Shadow  
+Just like the long shadow filter but it uses pixel data
+   
 ![image preview](extrusion2.png  )
 
-   Just like the long shadow filter but it uses pixel data
 
-## 5. Glossy Balloon
-https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
-  ![image preview]( yellow_ballon.jpg )
-  
-  A glossy bevelish effect that looks like inflated glossy paste.
+## 4. Outline Deluxe 
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Outline_Deluxe/
+
+![image](https://github.com/user-attachments/assets/0dd6e7e1-b78d-4685-b5c8-79110accc837)
+
+![image](https://github.com/user-attachments/assets/4e890791-6446-4ec1-bc95-9c88beba460f)
+
+![image](https://github.com/user-attachments/assets/3561009d-2e73-4811-8f41-3bb282260c24)
+
+
+## 5. Sparkle 
+
+https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_sparkle/
+
+Add a sparkle effect to images
+
+![image](https://github.com/user-attachments/assets/4c2c8456-8f81-48c1-b419-d7e246d6564d)
+
 
 ## 6. Shapes (GIMP 3 recommended for quality use)
 https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
@@ -212,6 +244,9 @@ Draw circles, squares, ovals, recentangles and dividers amd control them with a 
 
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
 Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
+
+![image](https://github.com/user-attachments/assets/3939ff98-f4f0-47fb-9163-63fd3eb8c581)
+
 
 ## Lastly, (common complaint), If GEGL Effects breaks after downloading a new plugin of mine that is because the new plugin has a more recent dependency GEGL Effects needed, this can easily be fixed  by updating to the latest version of GEGL Effects.
   
