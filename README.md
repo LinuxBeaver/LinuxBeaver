@@ -1,5 +1,7 @@
 # NEWS 
 
+May 2025 update! The download page now contains a new section with links to "vibe coded" GEGL plugins made mostly with Grok and somewhat Deep Seek. These plugins are a seperate download from my main plugins as I did not make them; AI did. So I don't get the credit. This plugins use actual pixel math unlike my plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course!
+
 GIMP 3 is released and it is highly recommended to use my plugins on 3 as opposed to GIMP 2.10. Though they will work on both. Make sure to try out native GIMP 3 fiters (Styles, Bevel and Inner Glow) which are plugins of mine officially in GIMP 3.
 
 NOTE, my plugins don't work with the official GIMP 3 appimage. But they do work on everything else.
