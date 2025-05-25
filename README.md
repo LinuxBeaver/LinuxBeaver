@@ -1,5 +1,8 @@
 # NEWS 
 
+**May 25 2025** 
+[Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.04. Update to solve it
+
 May 2025 update! The download page now contains a new section with links to "vibe coded" GEGL plugins. They are seperate from my normal plugins because technically **I didn't make them** Grok did, and somewhat Deep Seek! These plugins use actual pixel math unlike my plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course.
 
 GIMP 3 is released and it is highly recommended to use my plugins on 3 as opposed to GIMP 2.10. Though they will work on both. Make sure to try out native GIMP 3 fiters (Styles, Bevel and Inner Glow) which are plugins of mine officially in GIMP 3.
