@@ -73,7 +73,7 @@ Running the script **build_plugin_linux.sh** will compile an invidiual plugin wi
 
 
 ##  How to compile all 100+ GEGL plugins
-Running **build_everything_linux.sh** will compile everything in a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
+Running **build_everything_linux.sh / build_everything_windows** will compile everything in a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
 
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
