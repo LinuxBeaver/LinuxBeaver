@@ -77,7 +77,7 @@ Running **build_everything_linux.sh / build_everything_windows** will compile ev
 
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
-If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.34 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
+If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.36 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
 
 ### Why do these plugins not work anymore after updating?
 
