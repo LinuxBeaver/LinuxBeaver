@@ -12,9 +12,9 @@ GIMP 3 is released and it is highly recommended to use my plugins on 3 as oppose
 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_download_page
 
-Beaver's third party GEGL Gimp Plugins for Gimp
+Beaver's third party GEGL GIMP Plugins 
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for Gimp 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
+Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for GIMP 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
 
 ![image](https://github.com/user-attachments/assets/38946b16-7c7e-4ccb-9d1e-a9fc628400c7)
 
@@ -28,13 +28,13 @@ Both GIMP 2.10 and GIMP 3 share a common theme where white text allows some plug
 
 ![image](https://github.com/LinuxBeaver/LinuxBeaver/assets/78667207/2fe6a8ed-e903-432d-ac7c-872200b3eeb8)
 
-All plugins have source code and compile instructions on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I don't know how to support Mac. If you look at the source code of my GEGL plugins you will also find GEGL syntax listed before the code begins. If you put this GEGL syntax inside Gimp's "GEGL Graph" filter you can test a plugin of mine in a static position without installing. The syntax provided in the source code roughly recreates the plugin. It is total transparency, every aspect of what I do is open source so others can learn and create GEGL plugins themselves if they want.
+All plugins have source code and compile instructions on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I don't know how to support Mac. If you look at the source code of my GEGL plugins you will also find GEGL syntax listed before the code begins. If you put this GEGL syntax inside GIMP's "GEGL Graph" filter you can test a plugin of mine in a static position without installing. The syntax provided in the source code roughly recreates the plugin. It is total transparency, every aspect of what I do is open source so others can learn and create GEGL plugins themselves if they want.
 
 ## Windows
 .dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open "GEGL Operation".
 You may need to create the folder 'plug-ins` if it does not exist. 
 
-There is a very low chance Windows users will need to reinstall Gimp for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. 
+There is a very low chance Windows users will need to reinstall GIMP for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. 
 
 ## Windows (portable apps)
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
@@ -48,7 +48,7 @@ http://gimpchat.com/viewtopic.php?f=8&t=20038&hilit=windows+compile#p275148
 )
   
 ## Linux 
-.so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart Gimp and open GEGL Operation. 
+.so file filter binaries go in `~/.local/share/gegl-0.4/plug-ins` then restart GIMP and open GEGL Operation. 
 #### download for Linux here
 [Download all plugins for Linux here](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/LinuxBinaries_all_plugins.zip) 
 
@@ -59,7 +59,7 @@ Includes Linux binaries and Source Code
   
   ## SNAP Linux (NUMBER 393 VARIES)
   .so file filter binaries go `~/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
-  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart Gimp and open GEGL Operation.
+  for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart GIMP and open GEGL Operation.
 
 ## Source Code only of all 100+ GEGL plugins
 
@@ -77,11 +77,11 @@ Running **build_everything_linux.sh / build_everything_windows** will compile ev
 
 
 ## FAQ: I UPDATED YOUR PLUGINS AND MOST PLUGINS DON'T SHOW UP ANYMORE 
-If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak Gimp 2.10.36 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
+If you are using Ubuntu 20.04, 22.04, (Debian 10-12)  without Flatpak GIMP 2.10.36 and up you will **NOT** be able to use plugins of mine updated after March 11 2024.
 
 ### Why do these plugins not work anymore after updating?
 
-In 2025-2026 GEGL deprecated all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early Gimp can't read. This applies to the majority of my plugins. 
+In 2025-2026 GEGL deprecated all plugins of mine that use **gegl_node_connect_from** It requires a new **gegl_node_connect** that early GIMP can't read. This applies to the majority of my plugins. 
 Below is a download for the original plugins before the break happened.
 
 **Plugin and Code download for Debian 10,11,12, Ubuntu 20.04 and 22.04 is here, this branch does not ever update**
@@ -178,7 +178,7 @@ https://formulae.brew.sh/formula/gegl#default
  `brew install gegl`
   
   Then Compile every C file as you would on Linux using Meson and Ninja. Perhaps even my build.sh script will work.
-Then right-click on each individual .dylib file and then select open (in the finder), and it asks if you really want to open it. After that restart Gimp
+Then right-click on each individual .dylib file and then select open (in the finder), and it asks if you really want to open it. After that restart GIMP
 go to GEGL Operation. The plugin('s) *should work.  Each .dylib file needs to be manually approved. So running this in a folder to do exactly the same thing 
 may be a good idea. `cd ~/Library/Application Support/gegl/0.4/plug-ins/ # assuming it was installed here
 sudo xattr -rd com.apple.quarantine *`
@@ -265,7 +265,7 @@ https://github.com/LinuxBeaver/Vector_Layers_in_GIMP_via_vignette/
 Draw circles, squares, ovals, recentangles and dividers amd control them with a non-destructive vignette filter. Make sure to uncheck the internal vignette checkbox on GIMP 3. On 2.10 keep internet vignette checked.
 
 ## Avoid SubFolders and non binary content in GEGL Plugins directory
-Some people are having issues with my GEGL/Gimp plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to Gimp not starting up.
+Some people are having issues with my GEGL/GIMP plugins because they are making sub folders for each GEGL plugin of mine. All GEGL plugins should be in the same folder with no subfolders or any other file type. Folder should only contain binaries (.dll or .so) for your OS. Subfolders of binaries can lead to scenarios where users have two copies of a dependency and GEGL defaults to using an older version thus breaking plugins that need a newer dependency. Other file types could lead to GIMP not starting up.
 
 ![image](https://github.com/user-attachments/assets/3939ff98-f4f0-47fb-9163-63fd3eb8c581)
 
