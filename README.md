@@ -16,7 +16,7 @@ GIMP 3 is released and it is highly recommended to use my plugins on 3 as oppose
 
 Beaver's third party GEGL GIMP Plugins 
 =========
-Welcome, I make third party GEGL filter plugins for Gimp by chaining GEGL nodes inside c file templates. This allows Gimp to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each Gimp plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use Gimp 2.99.16 or up, all my filters are located in **the GEGL Operation section** for GIMP 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
+Welcome, I make third party GEGL filter plugins for GIMP by chaining GEGL nodes inside c file templates. This allows GIMP to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each GIMP plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 100 filters in total. Please remember, unless you use GIMP 2.99.16 or up, all my filters are located in **the GEGL Operation section** for GIMP 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
 
 ![image](https://github.com/user-attachments/assets/38946b16-7c7e-4ccb-9d1e-a9fc628400c7)
 
@@ -33,10 +33,10 @@ Both GIMP 2.10 and GIMP 3 share a common theme where white text allows some plug
 All plugins have source code and compile instructions on their Github page and Github page release section and can be compiled with Ninja and Meson but Windows, Linux and Chromebook users can use preconfigured binaries. Mac users have to compile no matter what as I don't know how to support Mac. If you look at the source code of my GEGL plugins you will also find GEGL syntax listed before the code begins. If you put this GEGL syntax inside GIMP's "GEGL Graph" filter you can test a plugin of mine in a static position without installing. The syntax provided in the source code roughly recreates the plugin. It is total transparency, every aspect of what I do is open source so others can learn and create GEGL plugins themselves if they want.
 
 ## Windows
-.dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart Gimp and open "GEGL Operation".
+.dll file filter binaries go in `C:\Users\USERNAME\AppData\Local\gegl-0.4\plug-ins` or perhaps `C:\Users\AppData\Local\gegl-0.4\plug-ins` then restart GIMP and open "GEGL Operation".
 You may need to create the folder 'plug-ins` if it does not exist. 
 
-There is a very low chance Windows users will need to reinstall GIMP for plugins to work. This low chance is probably caused by having a old version of Gimp or GEGL as a dependency. 
+There is a very low chance Windows users will need to reinstall GIMP for plugins to work. This low chance is probably caused by having a old version of GIMP or GEGL as a dependency. 
 
 ## Windows (portable apps)
 Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see if `drive:\GIMPPortable\App\gimp\lib\gegl-0.4\plug-ins` exist and put the binaries there.
@@ -67,7 +67,7 @@ Includes Linux binaries and Source Code
 
 [https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip)
 
-Source Code of all plugins contains a collection of over 100 GIMP plugins based on the engine GEGL. 
+Source Code of all plugins contains a collection of over 130 GEGL/GIMP plugins 
 
 ##  How to compile an individual GEGL plugins
 
@@ -272,7 +272,7 @@ Some people are having issues with my GEGL/GIMP plugins because they are making 
 ![image](https://github.com/user-attachments/assets/3939ff98-f4f0-47fb-9163-63fd3eb8c581)
 
 
-## Lastly, (common complaint), If GEGL Effects breaks after downloading a new plugin of mine that is because the new plugin has a more recent dependency GEGL Effects needed, this can easily be fixed  by updating to the latest version of GEGL Effects.
+## Lastly, (possible complaint), If GEGL Effects breaks after downloading a new plugin of mine that is because the new plugin has a more recent dependency GEGL Effects needed, this can easily be fixed  by updating to the latest version of GEGL Effects. However, this complaint is mostly mute now and will only happen if you are using versions of GEGL Effects before 2024.
   
   Enjoy!
 
