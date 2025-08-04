@@ -6,7 +6,7 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 ### NEWS 
 
 **A recent crash** 
-[Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.0.4 Update to solve it
+[Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.0.4 - Update to solve it
 
 **Vibe Coding**
 The download page now contains a new section with links to "vibe coded" GEGL plugins. They are seperate from my normal plugins because technically **I didn't make them** AI Grok did, and somewhat AI Deep Seek! These plugins use actual pixel math unlike my plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course. They will always be a seperate download from my natural plugins due to AI controversy.
