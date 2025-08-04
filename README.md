@@ -16,7 +16,7 @@ GIMP 3 is released and it is highly recommended to use my plugins on 3 as oppose
 
 Beaver's third party GEGL GIMP Plugins 
 =========
-Welcome, I make third party GEGL filter plugins for GIMP by chaining GEGL nodes inside c file templates. This allows GIMP to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each GIMP plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 120 filters in total. Please remember, unless you use GIMP 2.99.16 or up, all my filters are located in **the GEGL Operation section** for GIMP 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
+Welcome, I make third party GEGL filter plugins for GIMP by chaining GEGL nodes inside c file templates. This allows GIMP to have access to all sorts of cool text styling effects. It will turn your plain text into fancy graphical text styles. Please view each filters individual Git page for more info on what each GIMP plugin can do. You have the option to download fifty something of my best filters in one place on the front page, but it may be better if you download each filter manually from my Github release sections as the GEGL operation list can get crowded and you may not need all my filters.  I have over 130 filters in total. Please remember, unless you use GIMP 2.99.16 or up, all my filters are located in **the GEGL Operation section** for GIMP 2.10. On 2.99.16+ they are there but also exist in Filters>Text Styling and various other places like Filters>Render>Fun and more.
 
 ![image](https://github.com/user-attachments/assets/38946b16-7c7e-4ccb-9d1e-a9fc628400c7)
 
@@ -63,7 +63,7 @@ Includes Linux binaries and Source Code
   .so file filter binaries go `~/snap/gimp/393/.local/share/gegl-0.4/plug-ins` NOTE - the number 393 may vary so read http://gimpchat.com/viewtopic.php?f=9&t=20336 
   for finding the right directory. Simply go back to `/home/USERNAME/snap/gimp/` and look for the correct number directory.  Once restart GIMP and open GEGL Operation.
 
-## Source Code only of all 120+ GEGL plugins
+## Source Code only of all 130+ GEGL plugins
 
 [https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/source_code_of_all_GEGL_plugins.zip)
 
