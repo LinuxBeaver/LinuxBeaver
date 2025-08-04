@@ -74,7 +74,7 @@ Source Code of all plugins contains a collection of over 130 GEGL/GIMP plugins
 Running the script **build_plugin_linux.sh** will compile an invidiual plugin with all its dependency binaries if needed inside a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
 
 
-##  How to compile all 100+ GEGL plugins
+##  How to compile all 130+ GEGL plugins
 Running **build_everything_linux.sh / build_everything_windows** will compile everything in a folder named "LinuxBinaries" or "WindowsBinaries" depending on your OS.
 
 
@@ -92,8 +92,8 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_do
 
 GEGL 0.446 can read both **gegl_node_connect_from** and **gegl_node_connect** plugins but earlier versions can only read **gegl_node_connect_from** Every official plugin of mine now uses **gegl_node_connect**
 
-### Why do I have Gimp Fatal Error after updating your plugins?
-This bug may happen on Windows  because you mixed new plugins compiled with GEGL 0.4.46 with old ones compiled with GEGL 0.4.30 - Don't do that.
+### Why do I have GIMP Fatal Error after updating your plugins?
+This bug may happen on Windows  because you mixed new plugins compiled with GEGL 0.4.46+ with old ones compiled with GEGL 0.4.30-ish - Don't do that.
 
 
 ## Technical compile Guide for Linux 
