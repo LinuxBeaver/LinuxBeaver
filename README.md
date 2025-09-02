@@ -146,9 +146,10 @@ cp [source_path]/*.so /home/$(whoami)/.local/share/gegl-0.4/plug-ins/
 Linux  (Flatpak)
 cp [source_path]/*.so /home/$(whoami)/.var/app/org.gimp.GIMP/data/gegl-0.4/plug-ins
 
-Do NOT have multiple copies of the binaries or put binaries in separate folders.
+
 
 ```
+Do NOT have multiple copies of the binaries or put binaries in separate folders
 
 ### 5. Restart GIMP
 After copying the files, restart GIMP. The new GEGL operations should now be available in GIMP.
