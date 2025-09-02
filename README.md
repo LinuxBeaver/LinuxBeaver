@@ -11,6 +11,9 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 **Vibe Coding**
 The download page now contains a new section with links to "vibe coded" GEGL plugins. They are seperate from my normal plugins because technically **I didn't make them** AI Grok did, and somewhat AI Deep Seek! These plugins use actual pixel math unlike my plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course. They will always be a seperate download from my natural plugins due to AI controversy.
 
+**GIMP 3.14 has slow boot times with GEGL plugins + crash I fixed**
+On september 1st 2025 All my plugins updated so they no longer report potential crash warnings in GIMP 3.14. Though this update does not resolve slow GIMP startup times, when using many GEGL plugins they will still cause GIMP to start up slow. This update pushed by GIMP team is the culprit https://github.com/GNOME/gimp/commit/8e2a0381d7cd73e3c952a796afa79bf5c3fd8125. I am pretty sure they will fix it soon.
+
 **GIMP 3 release and known appimage problem** 
 GIMP 3 is released and it is highly recommended to use my plugins on 3 as opposed to GIMP 2.10. Though they will work on both. Make sure to try out native GIMP 3 fiters (Styles, Bevel and Inner Glow) which are plugins of mine officially in GIMP 3. NOTE, my plugins currently don't work with the official GIMP 3 appimage but GIMPs team has acknowledged this and may fix it soon in a future release.
 
