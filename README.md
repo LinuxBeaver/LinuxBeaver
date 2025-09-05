@@ -1,5 +1,5 @@
 
-### Download code and binaries for all plugins here
+### Download code and binaries for all plugins on their latest versions here
 
 https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_download_page
 
