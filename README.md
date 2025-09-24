@@ -6,7 +6,7 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 ### NEWS 
 
 **A recent crash** 
-[Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.0.4/3.1.4 - Update my plugins to solve it 
+[Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.0.6 - Update my plugins to solve it 
 
 **GIMP 3.1.4 has slow boot times with GEGL plugins + crash I fixed**
 On September 1st 2025 All my plugins updated so they no longer have crash warnings in GIMP 3.14 - GIMP's team also fixed the bug in 3.1.5 two days later - Read more here -> https://github.com/LinuxBeaver/LinuxBeaver/issues/16 Put simply, if you are using the latest versions of my plugins on GIMP 3.0.4 or 3.1.5 you will have no issue. But expect things to be slow in GIMP 3.1.4 no matter what
