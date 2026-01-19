@@ -12,6 +12,10 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 
 **Regaring GIMP 3.2 - Windows binaries will not work on GIMP 3.2 requiring Windows users to recompile**
 
+or you can use these binaries here of full GEGL plugins that exclude gimp: namespace ops.
+
+https://github.com/flatscrew/plugins-linux-beaver/releases/download/v0.1.0/LinuxBeaverGEGL-0.1.0-Setup-win64.exe
+
 Linux works just fine though
 
 On September 1st 2025 All my plugins updated so they no longer have crash warnings in GIMP 3.14 - GIMP's team also fixed the bug in 3.1.5 two days later - Read more here -> https://github.com/LinuxBeaver/LinuxBeaver/issues/16 Put simply, if you are using the latest versions of my plugins on GIMP 3.0.4 or 3.1.5 you will have no issue. But expect things to be slow on startup only in GIMP 3.0.6 no matter what. 
