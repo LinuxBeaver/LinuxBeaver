@@ -52,7 +52,7 @@ Search for **gegl-0.4** make a plug-ins folder and put the binaries there or see
 [Download all plugins for Windows](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/WindowsBinaries_all_plugins.zip) 
 
 #### download source code for Windows here
-[Source Code](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/Windows_source_code_of_all_GEGL_plugins.zip) 
+[Source Code specially designed for Windows ](https://github.com/LinuxBeaver/LinuxBeaver/releases/download/Gimp_GEGL_Plugin_download_page/Windows_source_code_of_all_GEGL_plugins.zip) 
 
 If compiling run the `build_plugin_windows.sh ` files with MySys2.
 
