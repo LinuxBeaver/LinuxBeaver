@@ -8,14 +8,12 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 **A recent crash** 
 [Text Style Collection (Food Edition)](https://github.com/LinuxBeaver/GEGL-GIMP-PLUGIN_Text_style_collection/releases/)  is crashing GIMP 3.0.6 - Update my plugins to solve it 
 
-
 **BINARIES NOW WORK ON WINDOWS GIMP 3.2 as of March 21 2026**
 
 They just needed to static link gettext, which means if you want to also compile on Windows you have to use a special copy of the source code I rpvoded that is 100s of megabytes larger due to gettext being entirely static linked.
 
 **Isolated download for AI plugins (April 2025 to present)**
-The download page now contains a section with links to "vibe coded" GEGL plugins. They are seperate from my normal plugins because technically **I didn't make them** AI Grok did, and somewhat AI Deep Seek, These plugins use actual pixel math unlike my natural plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course. They will always be a seperate download from my natural plugins due to AI controversy.
-
+The download page now contains a section with links to "vibe coded" GEGL plugins. They are separate ships from my normal plugins because technically **I didn't make them** AI's did. These plugins use actual pixel math unlike my natural plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course. They will always be a separate download from my natural plugins due to AI controversy.
 
 Beaver's third party GEGL GIMP Plugins 
 =========
