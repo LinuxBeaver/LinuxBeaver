@@ -13,10 +13,6 @@ https://github.com/LinuxBeaver/LinuxBeaver/releases/tag/Gimp_GEGL_Plugin_downloa
 
 They just needed to static link gettext, which means if you want to also compile on Windows you have to use a special copy of the source code I rpvoded that is 100s of megabytes larger due to gettext being entirely static linked.
 
-**GIMP 3.0.6 and 3.2 has slow boot times with GEGL plugins + Windows users need to compile**
-
-On September 1st 2025 All my plugins updated so they no longer have crash warnings in GIMP 3.14 - GIMP's team also fixed the bug in 3.1.5 two days later - Read more here -> https://github.com/LinuxBeaver/LinuxBeaver/issues/16 Put simply, if you are using the latest versions of my plugins on GIMP 3.0.4 or 3.1.5 you will have no issue. But expect things to be slow on startup only in GIMP 3.0.6+ no matter what, unless they fix things later on. 
-
 **Isolated download for AI plugins (April 2025 to present)**
 The download page now contains a section with links to "vibe coded" GEGL plugins. They are seperate from my normal plugins because technically **I didn't make them** AI Grok did, and somewhat AI Deep Seek, These plugins use actual pixel math unlike my natural plugins that depend on chaining existing GEGL nodes. Most of them do pattern design and gradients. All non-destructive of course. They will always be a seperate download from my natural plugins due to AI controversy.
 
